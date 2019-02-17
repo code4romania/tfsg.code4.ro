@@ -1,0 +1,114 @@
+- id: stats.hours
+  translation: hours of work
+- id: stats.cost
+  translation: mil euro saved
+- id: stats.volunteers
+  translation: volunteers working
+
+- id: until.hackday
+  translation: until the next Hack Day
+
+- id: time.days
+  translation: days
+- id: time.hours
+  translation: hours
+- id: time.minutes
+  translation: minutes
+- id: time.seconds
+  translation: seconds
+
+- id: event.calendar
+  translation: add to calendar
+- id: event.rsvp
+  translation: RSVP
+
+- id: projects.complete
+  translation: Finished projects
+- id: projects.viewall
+  translation: View all
+
+- id: partners
+  translation: Our Partners
+
+- id: response.success
+  translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!
+- id: response.fail
+  translation: There was an error saving your registration. Please try again later.
+
+- id: label.fname
+  translation: First name
+- id: label.lname
+  translation: Last name
+- id: label.email
+  translation: Email
+- id: label.emailUpdates
+  translation: I agree to be contacted by the Code for Romania team with updates regarding the Monthly Hack Days events.
+- id: label.diet
+  translation: Are you attending the event? Let us know of your dietary preferences
+- id: label.diet.other
+  translation: Other dietary preferences
+- id: label.where
+  translation: Where do you plan to attend?
+- id: label.tech
+  translation: Select the technologies you would prefer to work with
+- id: label.tech.other
+  translation: Other technologies
+- id: label.submit
+  translation: Register
+- id: label.codeofconduct
+  translation: 'By submitting this form you are agreeing to Code for Romania‘s <a href="https://code4.ro/en/code-of-conduct/" target="_blank">Code of Conduct</a>.'
+
+- id: option.where.bacau
+  translation: Bacău
+- id: option.where.brasov
+  translation: Brașov
+- id: option.where.bucuresti
+  translation: București
+- id: option.where.chisinau
+  translation: Chișinău
+- id: option.where.cluj
+  translation: Cluj-Napoca
+- id: option.where.constanta
+  translation: Constanța
+- id: option.where.diaspora
+  translation: Diaspora
+- id: option.where.iasi
+  translation: Iași
+- id: option.where.oradea
+  translation: Oradea
+- id: option.where.rmvalcea
+  translation: Râmnicu Vâlcea
+- id: option.where.sibiu
+  translation: Sibiu
+- id: option.where.suceava
+  translation: Suceava
+- id: option.where.tgmures
+  translation: Târgu Mureș
+- id: option.where.timisoara
+  translation: Timișoara
+- id: option.where.online
+  translation: I want to work online
+
+- id: option.diet.none
+  translation: None
+- id: option.diet.vegetarian
+  translation: Vegetarian
+- id: option.diet.vegan
+  translation: Vegan
+- id: option.diet.other
+  translation: Other
+
+- id: option.tech.js
+  translation: Javascript
+- id: option.tech.csharp
+  translation: "C#"
+- id: option.tech.angular
+  translation: Angular
+- id: option.tech.python
+  translation: Python
+- id: option.tech.dotnet
+  translation: .NET
+- id: option.tech.react
+  translation: React
+- id: option.tech.other
+  translation: Other

@@ -1,0 +1,81 @@
+.title {
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 2rem;
+
+	@include tablet {
+		font-size: 3rem;
+	}
+}
+
+.card {
+	height: 100%;
+}
+
+img {
+	border: 0;
+}
+
+.content {
+	@include tablet {
+		font-size: 1.125rem;
+	}
+
+	@include desktop {
+		font-size: 1.25rem;
+	}
+
+	a:not(.button) {
+		text-decoration: underline;
+	}
+}
+
+.section-header {
+	text-align: center;
+	max-width: 620px;
+	margin: 0 auto;
+
+	.desc {
+		font-size: 1.125rem;
+	}
+}
+
+.columns {
+	&.row-reverse {
+		flex-direction: row-reverse;
+	}
+}
+
+.countdown {
+	max-width: 340px;
+	margin: 0 auto;
+
+	.column {
+		padding: .75rem;
+	}
+
+	.title {
+		display: inline-block;
+		border-radius: .125em;
+		line-height: 1.25em;
+		margin: 0 0 .125em;
+		font-size: 2.5rem;
+		height: 1.25em;
+		width: 1.25em;
+
+		@include desktop {
+			font-size: 3rem;
+		}
+	}
+}
+
+.media.is-vcentered {
+	align-items: center;
+}
+
+.page {
+	.container {
+		max-width: $desktop;
+	}
+}
+

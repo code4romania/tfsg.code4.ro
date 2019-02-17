@@ -1,0 +1,75 @@
+{
+	"action": "https://pnb2dp19tk.execute-api.eu-west-1.amazonaws.com/v1",
+	"method": "post",
+	"fields": [
+		{
+			"name": "fname",
+			"type": "text",
+			"width": 6,
+			"required": true
+		},
+		{
+			"name": "lname",
+			"type": "text",
+			"width": 6,
+			"required": true
+		},
+		{
+			"name": "email",
+			"type": "email",
+			"width": 12,
+			"required": true
+		},
+		{
+			"name": "emailUpdates",
+			"type": "checkbox",
+			"width": 12,
+			"required": true
+		},
+		{
+			"name": "where",
+			"type": "select",
+			"width": 12,
+			"required": true,
+			"multiple": true,
+			"other": false,
+			"options": [
+				"bucuresti",
+				"iasi",
+				"cluj",
+				"timisoara",
+				"online"
+			]
+		},
+		{
+			"name": "diet",
+			"type": "radio",
+			"width": 12,
+			"required": true,
+			"multiple": true,
+			"other": true,
+			"checked": "none",
+			"options": [
+				"none",
+				"vegetarian",
+				"vegan"
+			]
+		},
+		{
+			"name": "tech",
+			"type": "checkbox",
+			"width": 12,
+			"required": false,
+			"multiple": true,
+			"other": true,
+			"options": [
+				"js",
+				"csharp",
+				"angular",
+				"python",
+				"dotnet",
+				"react"
+			]
+		}
+	]
+}

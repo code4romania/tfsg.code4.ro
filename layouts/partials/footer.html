@@ -1,0 +1,56 @@
+<aside class="partners section has-background-light">
+	<div class="container">
+		<div class="columns is-mobile is-multiline is-vcentered">
+			<div class="column is-12-touch is-4-desktop is-3-widescreen">
+				<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "partners" }}</h1>
+			</div>
+			<div class="column is-12-touch is-8-desktop is-9-widescreen">
+				<div class="columns is-mobile is-multiline">
+					{{ range $.Site.Data.partners }}
+						<div class="column is-4-touch">
+							<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+								<div class="logo-container">
+									<img src="{{ (printf "images/partners/%s.png" .id) | absURL }}" alt="{{ .name }}">
+								</div>
+							</a>
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</aside>
+<footer class="footer">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-4 copy">
+				<h2>A project by</h2>
+				<a href="{{ .Site.Params.url }}" class="brand">
+					<img src="{{ "images/code4romania-full-gray.svg" | absURL }}" class="logo svg-fallback" alt="{{ .Site.Params.by }}">
+				</a>
+				<p>{{ .Site.Params.copy }}</p>
+				<div class="social">
+					{{ range .Site.Menus.social }}
+						<a href="{{ .URL }}" class="icon" target="_blank">
+							<i class="fab fa-fw fa-{{ .Name }}" aria-hidden="true"></i>
+						</a>
+					{{ end }}
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="columns">
+					<ul class="column footer-links">
+						<li class="links-header">Links</li>
+						{{ range .Site.Menus.navigation }}
+							<li class="links-item">
+								<a href="{{ .URL }}">
+									{{ .Name }}
+								</a>
+							</li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

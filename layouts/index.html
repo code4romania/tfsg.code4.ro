@@ -1,0 +1,110 @@
+{{ define "main" }}
+	<section class="hero is-link is-bold">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered row-reverse">
+					<div class="column is-6-desktop">
+						<img src="{{ "images/hero.png" | relURL }}" alt="">
+					</div>
+					<div class="column is-6-desktop">
+						<h1 class="title is-spaced">{{ .Title }}</h1>
+						<div class="content">{{ .Content }}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<header class="has-text-centered">
+				<h1 class="title">{{ .Params.Subtitle }}</h1>
+			</header>
+
+			<div class="section">
+				<div class="columns has-text-centered">
+					{{ range .Params.steps }}
+						<div class="column content">
+							<p class="has-text-info">
+								<i class="fas fa-3x fa-{{ .icon }}" aria-hidden="true"></i>
+							</p>
+							<p class="has-text-left">{{ .text | safeHTML }}</p>
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-link is-bold">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title is-size-2">Upgrading Romania</h1>
+				<div class="content">
+					{{ with $.Site.Data.events }}
+						<div id="countdown" class="countdown columns is-mobile" data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">
+							{{ $parts := (slice "days" "hours" "minutes" "seconds") }}
+
+							{{ range $parts }}
+								<span class="column is-3">
+									<span class="title {{ . }} has-text-link has-background-white">0</span>
+									<span class="heading">{{ i18n (printf "time.%s" .) }}</span>
+								</span>
+							{{ end }}
+						</div>
+					{{ end }}
+					<p class="subtitle">{{ i18n "until.hackday" }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-multiline">
+					{{ range (where .Pages "Section" "events") }}
+						<div class="column is-12 is-6-desktop {{ cond (eq .Params.lab "online") "is-offset-3-desktop" "" }}">
+							{{ partial "event-card.html" . }}
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="section has-background-light">
+		<div class="container has-text-centered">
+			<div class="columns is-multiline is-vcentered has-text-centered">
+				{{ range $.Site.Data.stats }}
+					<div class="column">
+						<div>
+							<p class="title is-size-1">{{ .value }}</p>
+							<p class="subtitle is-size-4">{{ i18n .label }}</p>
+						</div>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+
+	<section class="section">
+		<div class="container">
+			<header class="has-text-centered">
+				<h1 class="title">{{ i18n "projects.complete" }}</h1>
+			</header>
+
+			<div class="section app-list">
+				<div class="columns is-mobile is-multiline">
+					{{ partial "apps.html" . }}
+
+					<div class="column is-6-mobile">
+						<a href="https://code4.ro/ro/apps/" target="_blank" class="is-block is-inverse">
+							<div class="app-brand">
+								<div class="logo-container">
+									<span class="is-size-4 is-block">{{ i18n "projects.viewall" }}</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}

@@ -1,0 +1,31 @@
+// Fonts
+$family-sans-serif          : 'Titillium Web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$family-monospace           : Courier, monospace;
+$fa-font-path               : 'fonts';
+
+// Colors
+$yellow                     : #FAEF54;
+$green                      : #1FB94A;
+$turquoise                  : #00D1B2;
+$cyan                       : #349ED8;
+$blue                       : #3A54A4;
+$red                        : #EA4C52;
+
+$primary                    : $blue;
+$link                       : $cyan;
+$info                       : $cyan;
+
+
+$column-gap                 : 1rem;
+// Navbar
+$navbar-height              : 6rem;
+$navbar-item-img-max-height : 5rem;
+
+
+// Other
+$variable-columns           : false;
+$dimensions                 : 16 24 32 48 64 96 128 192;
+$button-padding-horizontal  : 1.25em;
+
+
+$fullhd-enabled             : false;

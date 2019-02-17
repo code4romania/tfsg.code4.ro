@@ -1,0 +1,84 @@
+<form action="{{ .action }}" method="{{ .method }}" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
+	<input type="hidden" name="_redirect" value="true">
+	<div class="columns is-multiline content">
+		{{ range .fields }}
+			<div class="column {{- with .width }} is-{{ . }}-tablet{{ end }}">
+				<div class="field">
+					{{ if .required }}
+						{{ .Scratch.Set "attrs" (print "required" | safeHTMLAttr) }}
+					{{ else }}
+						{{ .Scratch.Set "attrs" "" }}
+					{{ end }}
+
+					{{ if or (and (ne .type "checkbox") (ne .type "radio")) .multiple }}
+						<label for="{{ .name }}" class="label is-medium">{{ i18n (printf "label.%s" .name) }}</label>
+					{{ end }}
+					<div class="control">
+						{{ if or (eq .type "checkbox") (eq .type "radio") }}
+							{{ if .multiple }}
+								{{ $input := . }}
+								<div class="columns is-multiline is-vcentered">
+									{{ range $option := .options }}
+										<div class="column is-3">
+											<input class="is-checkradio is-info" id="{{ $input.name }}-{{ $option }}" type="{{ $input.type }}"
+
+												name="{{ $input.name }}
+												{{- if (eq $input.type "checkbox") -}} [] {{- end }}"
+												value="{{ $option }}"
+												{{- with $input.required }} required {{- end }}
+												{{- if (eq $input.checked $option) }} checked {{- end }}>
+											<label class="is-block" for="{{ $input.name }}-{{ $option }}">{{ i18n (printf "option.%s.%s" $input.name $option) }}</label>
+										</div>
+									{{ end }}
+
+									{{ if .other }}
+										<div class="column is-3">
+											<input class="is-checkradio is-info" id="{{ $input.name }}-other" type="{{ $input.type }}"
+												name="{{ $input.name }}
+												{{- if (eq $input.type "checkbox") -}} [] {{- end }}"
+												value="other">
+											<label class="is-inline-block" for="{{ $input.name }}-other">{{ i18n (printf "option.%s.other" $input.name ) }}</label>
+										</div>
+									{{ end }}
+								</div>
+
+								{{ if .other }}
+									<p class="help"></p>
+									<input id="{{ $input.name }}Other" name="{{ $input.name }}Other" class="input other" type="text" placeholder="{{ i18n (printf "label.%s.other" .name) }}">
+								{{ end }}
+							{{ else }}
+								<input class="is-checkradio is-info" id="{{ .name }}" type="{{ .type }}" name="{{ .name }}"
+									{{- with .required }} required {{- end }}
+									{{- with .checked }} checked {{- end }}>
+								<label class="is-inline-block" for="{{ .name }}">{{ i18n (printf "label.%s" .name) }}</label>
+							{{ end }}
+						{{ else if eq .type "select" }}
+							<div class="select is-medium is-fullwidth">
+								<select id="{{ .name }}" name="{{ .name }}" {{- with .required }} required {{- end }}>
+									<option></option>
+									{{ $name := .name }}
+									{{ range .options }}
+										<option value={{ . }}>{{ i18n (printf "option.%s.%s" $name .) }}</option>
+									{{ end }}
+
+									{{ if .other }}
+										<option value="other">{{ i18n (printf "option.%s.other" $name) }}</option>
+									{{ end }}
+								</select>
+							</div>
+						{{ else }}
+							<input id="{{ .name }}" name="{{ .name }}" class="input is-medium" type="{{ .type }}"
+								{{ with .required }} required {{ end }}>
+						{{ end }}
+						<p class="help"></p>
+					</div>
+				</div>
+			</div>
+		{{ end }}
+	</div>
+	<div class="submit-container buttons is-centered content">
+		<input name="submit" type="submit" value="{{ i18n "label.submit" }}" class="button is-large is-success">
+		<p class="help has-text-centered">{{ i18n "label.codeofconduct" | safeHTML }}</p>
+	</div>
+	<div class="field" id="messages"></div>
+</form>

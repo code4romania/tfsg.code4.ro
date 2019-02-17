@@ -1,0 +1,27 @@
+{{ define "main" }}
+	<div class="page {{- if .Layout }} {{ .Layout }}{{ end }}">
+		<div class="container">
+			<header class="section section-header">
+				<h1 class="title">{{ .Title }}</h1>
+			</header>
+
+
+			<div class="section">
+				<div class="content">
+					{{ .Content }}
+				</div>
+
+				<div class="app-list">
+					<div class="columns is-mobile is-multiline">
+						{{ partial "apps.html" . }}
+					</div>
+				</div>
+
+				{{ with (getJSON "function/form.json") }}
+					{{ partial "form.html" . }}
+				{{ end }}
+			</div>
+		</div>
+
+	</div>
+{{ end }}

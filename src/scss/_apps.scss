@@ -1,0 +1,55 @@
+%logo-container {
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	overflow: hidden;
+	display: flex;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+
+	img {
+		width: 75%;
+	}
+}
+
+
+.app-brand {
+	position: relative;
+	padding: 0 0 100%;
+	display: block;
+	height: 0;
+
+	&.link {
+		transition: filter 3 * $speed linear;
+		filter: grayscale(0);
+
+		&:hover,
+		&:focus {
+			filter: grayscale(1);
+		}
+	}
+
+	.logo-container {
+		@extend %logo-container;
+
+		border: 1px solid $grey-lighter;
+		background-color: $white;
+
+		img {
+			width: 65%;
+		}
+	}
+}
+
+.page.hackday {
+	.app-list {
+		max-width: $tablet;
+		margin: 0 auto 3rem;
+
+		.columns {
+			justify-content: center;
+		}
+	}
+}

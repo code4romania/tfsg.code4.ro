@@ -1,0 +1,63 @@
+defaultContentLanguage: ro
+defaultContentLanguageInSubdir: true
+title: Tech for Social Good
+
+languages:
+  ro:
+    languageName: Română
+    languageCode: ro
+    copy: Organizație neguvernamentală independentă, neafiliată politic și apolitică.
+    url: https://code4.ro/ro/
+
+  en:
+    languageName: English
+    languageCode: en
+    copy: An independent, non-partisan, non-political, non-govermental organization.
+    url: https://code4.ro/en/
+
+params:
+  by: Code for Romania
+
+staticDir:
+  - static
+  - theme
+
+menu:
+  navigation:
+    - name: Blog
+      url: https://code4.ro/ro/blog/
+      weight: 1
+  social:
+    - name: facebook
+      url: https://www.facebook.com/code4romania/
+      weight: 1
+    - name: twitter
+      url: https://twitter.com/Code4Romania
+      weight: 2
+    - name: github
+      url: https://github.com/code4romania/
+      weight: 3
+    - name: linkedin
+      url: https://www.linkedin.com/company/code4romania/
+      weight: 4
+
+blackfriday:
+  hrefTargetBlank: true
+  fractions: false
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+googleAnalytics:
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: true
+
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm

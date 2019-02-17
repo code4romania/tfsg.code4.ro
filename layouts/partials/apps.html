@@ -1,0 +1,11 @@
+{{ range $.Site.Data.apps }}
+	{{ if .show }}
+		<div class="column is-6-mobile">
+			<div class="app-brand">
+				<div class="logo-container" style="background-color:{{ .color }}">
+					<img src="{{ (printf "images/apps/%s.png" .id) | absURL }}" alt="{{ .id }}">
+				</div>
+			</div>
+		</div>
+	{{ end }}
+{{ end }}
