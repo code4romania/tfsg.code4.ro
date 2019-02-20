@@ -6,4 +6,3 @@ weight: 1
 outputs:
   - Calendar
 ---
-Lorem ipsum dolor sit amet.
