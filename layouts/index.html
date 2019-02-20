@@ -16,22 +16,28 @@
 	</section>
 
 	<section class="section">
-		<div class="container">
+		<div class="container is-narrow">
 			<header class="has-text-centered">
 				<h1 class="title">{{ .Params.Subtitle }}</h1>
 			</header>
 
 			<div class="section">
-				<div class="columns has-text-centered">
-					{{ range .Params.steps }}
-						<div class="column content">
-							<p class="has-text-info">
-								<i class="fas fa-3x fa-{{ .icon }}" aria-hidden="true"></i>
-							</p>
-							<p class="has-text-left">{{ .text | safeHTML }}</p>
+				{{ range $i, $step := .Params.steps }}
+					<div class="media">
+						<div class="columns is-vcentered {{- cond (eq (mod $i 2) 1) " row-reverse" "" }}">
+							<div class="column is-3-tablet is-4-desktop">
+								<figure class="image is-square">
+									<img src="{{ (printf "images/steps/%d.png" $i) | absURL }}">
+								</figure>
+							</div>
+							<div class="column">
+								<div class="content">
+									{{ .text }}
+								</div>
+							</div>
 						</div>
-					{{ end }}
-				</div>
+					</div>
+				{{ end }}
 			</div>
 		</div>
 	</section>
@@ -39,7 +45,7 @@
 	<section class="hero is-link is-bold">
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-size-2">Upgrading Romania</h1>
+				<h1 class="title is-size-2">Upgrading Romania in</h1>
 				<div class="content">
 					{{ with $.Site.Data.events }}
 						<div id="countdown" class="countdown columns is-mobile" data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">

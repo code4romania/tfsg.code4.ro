@@ -79,3 +79,8 @@ img {
 	}
 }
 
+.container {
+	&.is-narrow {
+		max-width: $tablet;
+	}
+}

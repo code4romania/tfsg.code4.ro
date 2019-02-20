@@ -36,10 +36,6 @@
 
 		border: 1px solid $grey-lighter;
 		background-color: $white;
-
-		img {
-			width: 65%;
-		}
 	}
 }
 
@@ -50,6 +46,16 @@
 
 		.columns {
 			justify-content: center;
+		}
+	}
+}
+
+.partners {
+	.app-brand {
+		.logo-container {
+			img {
+				width: 100%;
+			}
 		}
 	}
 }

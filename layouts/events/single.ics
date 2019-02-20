@@ -1,15 +1,20 @@
+{{ $tz := $.Site.Data.events.tz -}}
+{{ $eventDate := $.Site.Data.events.date -}}
+{{ $startTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.startTime) -}}
+{{ $endTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.endTime) -}}
+
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:{{ dateFormat "20060102T150405Z" (printf "%sT%s:00Z" $.Site.Data.events.date $.Site.Data.events.startTime) }}
+DTSTAMP:{{ dateFormat "20060102T150405Z" $startTime }}
 STATUS:CONFIRMED
-UID:{{ dateFormat "20060102T150405Z" (printf "%sT%s:00Z" $.Site.Data.events.date $.Site.Data.events.startTime) }}-{{ .Params.lab }}@tfsg.code4.ro
-DTSTART;TZID={{ $.Site.Data.events.tz }}:{{ dateFormat "20060102T150405" (printf "%sT%s:00Z" $.Site.Data.events.date $.Site.Data.events.startTime) }}
-DTEND;TZID={{ $.Site.Data.events.tz }}:{{dateFormat "20060102T150405" (printf "%sT%s:00Z" $.Site.Data.events.date $.Site.Data.events.endTime) }}
+UID:{{ dateFormat "20060102T150405Z" $startTime }}-{{ .Params.lab }}@tfsg.code4.ro
+DTSTART;TZID={{ $tz }}:{{ dateFormat "20060102T150405" $startTime }}
+DTEND;TZID={{ $tz }}:{{dateFormat "20060102T150405" $endTime }}
 SUMMARY:HackDay #{{ $.Site.Data.events.edition }} - {{ .Title }}
-DESCRIPTION:{{ .Params.description }}
-LOCATION:{{ with .Params.location }}{{ . }}{{ end }}
+DESCRIPTION:{{ trim (plainify .Content) "\n" }}
+URL:{{ "/" | absLangURL }}
 END:VEVENT
 END:VCALENDAR

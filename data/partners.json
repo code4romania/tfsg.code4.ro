@@ -1,8 +1,13 @@
 [
 	{
-		"id": "mater",
+		"id": "materlibrary",
 		"name": "Mater",
 		"url": "https://materlibrary.ro/"
+	},
+	{
+		"id": "scouthouse",
+		"name": "Scout House",
+		"url": "https://scouthouse.ro/"
 	},
 	{
 		"id": "fablabiasi",
@@ -10,23 +15,18 @@
 		"url": "http://www.fablabiasi.ro/"
 	},
 	{
-		"id": "mater",
-		"name": "Mater",
-		"url": "https://materlibrary.ro/"
+		"id": "devplant",
+		"name": "DevPlant",
+		"url": "https://devplant.ro/"
 	},
 	{
-		"id": "fablabiasi",
+		"id": "heineken",
+		"name": "heineken",
+		"url": "https://www.heineken.com/ro/"
+	},
+	{
+		"id": "pinmagazine",
 		"name": "FabLab Iași",
-		"url": "http://www.fablabiasi.ro/"
-	},
-	{
-		"id": "mater",
-		"name": "Mater",
-		"url": "https://materlibrary.ro/"
-	},
-	{
-		"id": "fablabiasi",
-		"name": "FabLab Iași",
-		"url": "http://www.fablabiasi.ro/"
+		"url": "https://www.pinmagazine.ro/"
 	}
 ]

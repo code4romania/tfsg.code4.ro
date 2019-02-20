@@ -1,14 +1,14 @@
 ---
-title: Commit to change
+title: We are the ones we’ve been waiting for
 
-subtitle: How it works
+subtitle: Cum lucrăm
 steps:
   - icon: plus-circle
-    text: "If you want to be part of the heroes changing the world all you have to do is register for the next Hack Day. You can work online or join one of the events in Bucharest, Iasi, Cluj-Napoca or Timisoara."
+    text: "Identificăm problemele printr-o metodologie foarte clară de lucru. Le ducem în Civic Lab, generatorul de soluții digitale, unde o echipă de cercetători, oameni de UX și experți în domeniu construiesc prototipurile viitoarelor aplicații. Odată încheiat procesul, aceste soluții sunt gata de development așa că ajung aici, în Tech for Social Good. Locul în care magia se întâmplă."
   - icon: clipboard-check
-    text: "Once you have registered wait for details about the exact location and how you can contribute. Meanwhile, you can pass the news to your friends about the event and bring in more people in your superhero team! "
+    text: "Ești developer și știi prea bine că magia în tehnologie are nevoie de skilluri, de timp și de consecvență. Nu poți construi cea mai tare aplicație peste noapte, dar unde sunt mulți puterea crește și zi după zi ne îndreptăm spre a rezolva încă o problemă. Pentru noi. Pentru orașul tău. Pentru România."
   - icon: trophy
-    text: "Start coding. All the open issues will be available in our GitHub repo, the Code for Romania Tech team will be available for any question throughout the entire day.<br>Commit. Pull Request. Save the world."
+    text: "Lună de lună ne vom vedea să lucrăm împreună în cadrul Monthly Hack Days, aici la Code for București. E simplu de ținut minte, ne vedem de fiecare dată în ultima sâmbătă a fiecărei luni pentru o zi întreagă de tech work & tech talk. Evenimentele se petrec simultan în Iași, Cluj-Napoca, Timișoara și București și online via Google Meet & Slack."
 ---
 
-Tech for social good was awarded as the best non-governmental program in the Civil Society Gala in 2018. This is the development program where social issues come to an end. This is where digital  solutions  become real applications ready to be used for everyone through a process coordinated by some of the best software development specialists in Romania and diaspora.
+Așa cum ne spune și numele, misiunea noastră este să scriem cod pentru a face din România țara pe care ne-o dorim cu toții. De aceea, Tech for Social Good este principalul program al Code for Romania, locul în care ne suflecăm mânecile și dezvoltăm soluții pentru probleme sociale.  Tech for social good a fost premiat drept cel mai bun program non-guvernamental în cadrul Galei Societății Civile în 2018.
