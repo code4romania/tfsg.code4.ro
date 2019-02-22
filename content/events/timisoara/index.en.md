@@ -1,7 +1,7 @@
 ---
 lab: timisoara
 title: Timișoara
-location: Universitatea de Vest
+location: Facultatea de Arte și Design
 weight: 4
 outputs:
   - Calendar

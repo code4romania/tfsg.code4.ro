@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Cluj Hub
+location: ScoutHouse
 weight: 2
 outputs:
   - Calendar

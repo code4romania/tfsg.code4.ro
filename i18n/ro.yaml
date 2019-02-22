@@ -113,7 +113,9 @@
   translation: Python
 - id: option.tech.dotnet
   translation: .NET
-- id: option.tech.react
-  translation: React
+- id: option.tech.android
+  translation: Android
+- id: option.tech.ios
+  translation: iOS
 - id: option.tech.other
   translation: Altele

@@ -7,7 +7,7 @@ menu:
     weight: 10
 ---
 
-Join us on the 23rd of February for our second monthly Code for Romania Hack Day for 2019. If you’re in Bucharest, Timișoara, Cluj-Napoca or Iași you can participate in-person at one of the Code for Romania local community events. Bring your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person in one of the four cities you can always join us online and work from home or from your favourite coffee shop!
+Join us on the 30th of March for our third monthly Code for Romania Hack Day for 2019. If you’re in Bucharest, Timișoara, Cluj-Napoca or Iași you can participate in-person at one of the Code for Romania local community events. Bring your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person in one of the four cities you can always join us online and work from home or from your favourite coffee shop!
 
 
 {{% columns class="is-multiline" %}}

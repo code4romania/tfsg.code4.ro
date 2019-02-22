@@ -64,11 +64,11 @@
 			"other": true,
 			"options": [
 				"js",
-				"csharp",
-				"angular",
 				"python",
 				"dotnet",
-				"react"
+				"angular",
+				"android",
+				"ios"
 			]
 		}
 	]

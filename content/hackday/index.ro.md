@@ -10,7 +10,7 @@ aliases:
   - /hackday
 ---
 
-Vino alături de noi pe 23 februarie la a doua ediție de Hack Day al Code for Romania de anul acesta. Dacă ești din București, Timișoara, Cluj-Napoca sau Iași participă la unul dintre evenimentele locale ale comunității Code for Romania. Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa în niciunul dintre cele patru orașe, atunci poți să ni te alături online și să lucrezi de oriunde.
+Vino alături de noi pe 30 martie la a treia ediție de Hack Day al Code for Romania de anul acesta. Dacă ești din București, Timișoara, Cluj-Napoca sau Iași participă la unul dintre evenimentele locale ale comunității Code for Romania. Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa în niciunul dintre cele patru orașe, atunci poți să ni te alături online și să lucrezi de oriunde.
 
 
 {{% columns class="is-multiline" %}}
