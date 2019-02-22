@@ -5,6 +5,11 @@
 - id: stats.volunteers
   translation: volunteers working
 
+- id: 404.title
+  translation: Are you lost?
+- id: 404.home
+  translation: Back to the front page
+
 - id: until.hackday
   translation: until the next Hack Day
 
