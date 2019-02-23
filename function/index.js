@@ -1,11 +1,18 @@
 /* eslint-env node, es6 */
-var querystring = require('querystring'),
-	https       = require('https'),
+let querystring  = require('querystring'),
+	https        = require('https'),
+	fs           = require('fs'),
 
-	form        = require('./form.json'),
-	map         = require('./map.json'),
-	formID      = process.env.FORM_ID,
-	corsDomain	= process.env.CORS_DOMAIN;
+	aws          = require('aws-sdk'),
+	ses          = new aws.SES(),
+
+	form         = require('./form.json'),
+	map          = require('./map.json'),
+
+	corsDomain	 = process.env.CORS_DOMAIN,
+	emailFrom    = process.env.EMAIL_FROM,
+	emailReplyTo = process.env.EMAIL_REPLY_TO,
+	formID       = process.env.FORM_ID;
 
 function response(statusCode, payload, redirect = false) {
 	let headers = {
@@ -30,6 +37,36 @@ function response(statusCode, payload, redirect = false) {
 		headers: headers,
 		body: body,
 	};
+}
+
+function sendEmail(data) {
+	let textFile = 'email.txt';
+
+	let emailParams = {
+		Source: emailFrom,
+		Destination: {
+			ToAddresses: [
+				data.email
+			]
+		},
+		ReplyToAddresses: [
+			emailReplyTo
+		],
+		Message: {
+			Body: {
+				Text: {
+					Charset: 'UTF-8',
+					Data: fs.readFileSync(textFile, 'utf8'),
+				},
+			},
+			Subject: {
+				Charset: 'UTF-8',
+				Data: `Welcome to HackDay #${data.edition}`,
+			}
+		}
+	};
+
+	return ses.sendEmail(emailParams).promise();
 }
 
 function parseForm(body) {
@@ -111,15 +148,16 @@ function parseForm(body) {
 function submitForm(data) {
 	data = parseForm(data);
 
+	let gform = [];
+
 	for (var key in data) {
 		if (!(key in map))
 			continue;
 
-		data[ map[key] ] = data[key];
-		delete data[key];
+		gform[ map[key] ] = data[key];
 	}
 
-	let postData = querystring.stringify(data);
+	let postData = querystring.stringify(gform);
 
 	const options = {
 		host: 'docs.google.com',
@@ -148,15 +186,17 @@ function submitForm(data) {
 			console.error(e);
 			reject(e);
 		});
+	}).then(() => {
+		return sendEmail(data);
 	});
 }
 
-exports.handler = async (event, context, callback) => {
+exports.handler = async (event) => {
 	try {
 		let body = querystring.parse(event.body);
 
-		return response(200, await submitForm(body));
+		return response(200, await submitForm(body), !!body['_redirect']);
 	} catch (err) {
-		return response(500, err.message);
+		return response(500, err.message, !!body['_redirect']);
 	}
 };

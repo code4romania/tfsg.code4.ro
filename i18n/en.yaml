@@ -61,7 +61,7 @@
 - id: label.submit
   translation: Register
 - id: label.codeofconduct
-  translation: 'By submitting this form you are agreeing to Code for Romania‘s <a href="https://code4.ro/en/code-of-conduct/" target="_blank">Code of Conduct</a>.'
+  translation: 'By submitting this form you acknowledge that you are at least 18 years old and you are agreeing to Code for Romania‘s <a href="https://code4.ro/en/code-of-conduct/" target="_blank">Code of Conduct</a>.'
 
 - id: option.where.bacau
   translation: Bacău

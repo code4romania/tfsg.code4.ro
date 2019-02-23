@@ -1,7 +1,7 @@
+{{ with (getJSON "function/form.json") }}
 <form action="{{ .action }}" method="{{ .method }}" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
-	<input type="hidden" name="_redirect" value="true">
 	<div class="columns is-multiline content">
-		{{ range .fields }}
+		{{ range where .fields "type" "!=" "hidden" }}
 			<div class="column {{- with .width }} is-{{ . }}-tablet{{ end }}">
 				<div class="field">
 					{{ if .required }}
@@ -77,8 +77,12 @@
 		{{ end }}
 	</div>
 	<div class="submit-container buttons is-centered content">
+		<input type="hidden" name="_redirect" value="true">
+		<input type="hidden" name="edition" value="{{ $.Site.Data.events.edition }}">
+		<input type="hidden" name="lang" value="{{ $.Site.Language }}">
 		<input name="submit" type="submit" value="{{ i18n "label.submit" }}" class="button is-large is-success">
 		<p class="help has-text-centered">{{ i18n "label.codeofconduct" | safeHTML }}</p>
 	</div>
 	<div class="field" id="messages"></div>
 </form>
+{{ end }}

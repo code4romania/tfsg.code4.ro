@@ -17,9 +17,7 @@
 					</div>
 				</div>
 
-				{{ with (getJSON "function/form.json") }}
-					{{ partial "form.html" . }}
-				{{ end }}
+				{{ partial "form.html" . }}
 			</div>
 		</div>
 

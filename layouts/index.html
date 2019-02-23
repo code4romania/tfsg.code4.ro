@@ -27,7 +27,7 @@
 						<div class="columns is-vcentered {{- cond (eq (mod $i 2) 1) " row-reverse" "" }}">
 							<div class="column is-3-tablet is-4-desktop">
 								<figure class="image is-square">
-									<img src="{{ (printf "images/steps/%d.png" $i) | absURL }}">
+									<img src="{{ (printf "images/steps/%d.svg" $i) | absURL }}" class="svg-fallback">
 								</figure>
 							</div>
 							<div class="column">

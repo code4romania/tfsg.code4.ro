@@ -1,5 +1,5 @@
 ---
-title: Hackday
+title: HackDay
 layout: hackday
 menu:
   navigation:

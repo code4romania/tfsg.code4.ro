@@ -3,6 +3,10 @@
 	"method": "post",
 	"fields": [
 		{
+			"name": "edition",
+			"type": "hidden"
+		},
+		{
 			"name": "fname",
 			"type": "text",
 			"width": 6,

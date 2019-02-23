@@ -28,5 +28,15 @@
 		"id": "pinmagazine",
 		"name": "FabLab Iași",
 		"url": "https://www.pinmagazine.ro/"
+	},
+	{
+		"id": "starbucks",
+		"name": "Starbucks",
+		"url": "http://www.starbucksromania.ro/"
+	},
+	{
+		"id": "eisberg",
+		"name": "Eisberg",
+		"url": "https://www.eisberg-romania.ro/ro"
 	}
 ]

@@ -15,7 +15,7 @@
 		"production": "cross-env NODE_ENV=production gulp build"
 	},
 	"devDependencies": {
-		"autoprefixer": "^9.4.7",
+		"autoprefixer": "^9.4.8",
 		"cross-env": "^5.2",
 		"gulp": "^4.0.0",
 		"gulp-concat": "^2.6.1",
@@ -28,7 +28,7 @@
 		"gulp-rename": "^1.4.0",
 		"gulp-sass": "^4.0.2",
 		"gulp-sass-lint": "^1.4.0",
-		"gulp-sourcemaps": "^2.4.1",
+		"gulp-sourcemaps": "^2.6.5",
 		"gulp-svgmin": "^2.1.0",
 		"gulp-uglify": "^3.0.1",
 		"merge-stream": "^1.0.1",
@@ -36,7 +36,7 @@
 		"through2": "^3.0.0"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.7.1",
+		"@fortawesome/fontawesome-free": "^5.7.2",
 		"bulma": "^0.7.4",
 		"bulma-checkradio": "^2.1.0",
 		"validate.js": "^0.12.0"
