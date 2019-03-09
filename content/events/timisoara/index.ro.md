@@ -1,7 +1,7 @@
 ---
 lab: timisoara
 title: Timișoara
-location: Faculty of Arts and Design
+location: DevPlant
 weight: 4
 outputs:
   - Calendar
