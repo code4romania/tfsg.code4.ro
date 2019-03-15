@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: ScoutHouse
+location: Școala Informală de IT
 weight: 2
 outputs:
   - Calendar
