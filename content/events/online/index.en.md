@@ -1,7 +1,7 @@
 ---
 lab: online
 title: Join the live event
-location: Google Meet
+location: Slack
 weight: 99
 outputs:
   - Calendar
