@@ -1,8 +1,8 @@
 {
-	"edition": "3",
+	"edition": "4",
 	"tz": "Europe/Bucharest",
 	"offset": "+02:00",
-	"date": "2019-03-30",
+	"date": "2019-04-20",
 	"startTime": "10:00",
 	"endTime": "22:00"
 }
