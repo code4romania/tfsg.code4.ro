@@ -38,5 +38,10 @@
 		"id": "eisberg",
 		"name": "Eisberg",
 		"url": "https://www.eisberg-romania.ro/ro"
+	},
+	{
+		"id": "acrobatica",
+		"name": "Pizza Acrobatica",
+		"url": "https://acrobatica.ro"
 	}
 ]
