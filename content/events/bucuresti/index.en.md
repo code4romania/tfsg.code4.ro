@@ -1,7 +1,7 @@
 ---
 lab: bucuresti
 title: București
-location: Tech Hub Bucharest
+location: Mater Library
 weight: 1
 outputs:
   - Calendar
