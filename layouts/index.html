@@ -68,7 +68,7 @@
 				<div class="columns is-multiline">
 					{{ range (where .Pages "Section" "events") }}
 						<div class="column is-12 is-6-desktop {{ cond (eq .Params.lab "online") "is-offset-3-desktop" "" }}">
-							{{ partial "event-card.html" . }}
+							{{- .Render "card" -}}
 						</div>
 					{{ end }}
 				</div>
