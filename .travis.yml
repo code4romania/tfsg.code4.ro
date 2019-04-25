@@ -13,6 +13,8 @@ install:
 
 script:
   - npm install
+  - npm run lint:css
+  - npm run lint:js
   - npm run production
   - hugo --minify --baseURL $BASE_URL
 
