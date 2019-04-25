@@ -1,5 +1,4 @@
-let CopyWebpackPlugin = require('copy-webpack-plugin'),
-	FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'),
+let FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'),
 	ManifestPlugin = require('webpack-manifest-plugin'),
 	MiniCssExtractPlugin = require('mini-css-extract-plugin'),
 	OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
@@ -24,10 +23,6 @@ let plugins = [
 		filename: '[name].css?v=[hash]',
 		chunkFilename: '[name].js?v=[hash]',
 	}),
-	new CopyWebpackPlugin([{
-		from: 'src/svg',
-		to: 'images',
-	}]),
 ];
 
 if (isProd) {
