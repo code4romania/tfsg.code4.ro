@@ -5,7 +5,7 @@
 				<div class="media is-vcentered">
 					<div class="media-left">
 						<figure class="image is-64x64">
-							{{ if (fileExists (printf "theme/images/city-labs/%s.svg" .Params.lab)) }}
+							{{ if (fileExists (printf "static/images/city-labs/%s.svg" .Params.lab)) }}
 								<img src="{{ (printf "images/city-labs/%s.svg" .Params.lab) | relURL }}" alt="{{ .Title }}" class="svg-fallback">
 							{{ else }}
 								<img src="{{ "images/code4romania.svg" | relURL }}" alt="{{ .Title }}" class="svg-fallback">
