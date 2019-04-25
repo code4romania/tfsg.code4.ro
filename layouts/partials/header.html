@@ -20,7 +20,7 @@
 
 				{{ range .Translations }}
 					{{ if ne $.Site.Language .Language }}
-						<a class="navbar-item is-uppercase has-text-primary" href="{{ .URL }}" hreflang="{{ .Language }}">
+						<a class="navbar-item is-uppercase has-text-primary" href="{{ .Permalink }}" hreflang="{{ .Language }}">
 							{{ .Language }}
 						</a>
 					{{ end }}
