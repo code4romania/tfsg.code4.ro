@@ -1,4 +1,8 @@
-{{ $tz := $.Site.Data.events.tz -}}
+{{ .Scratch.Set "tz" $.Site.Data.events.tz -}}
+{{ if isset .Params "tz" }}
+	{{ .Scratch.Set "tz" .Params.tz }}
+{{ end -}}
+
 {{ $eventDate := $.Site.Data.events.date -}}
 {{ $startTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.startTime) -}}
 {{ $endTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.endTime) -}}
@@ -11,8 +15,8 @@ BEGIN:VEVENT
 DTSTAMP:{{ dateFormat "20060102T150405Z" $startTime }}
 STATUS:CONFIRMED
 UID:{{ dateFormat "20060102T150405Z" $startTime }}-{{ .Params.lab }}@tfsg.code4.ro
-DTSTART;TZID={{ $tz }}:{{ dateFormat "20060102T150405" $startTime }}
-DTEND;TZID={{ $tz }}:{{dateFormat "20060102T150405" $endTime }}
+DTSTART;TZID={{ .Scratch.Get "tz" }}:{{ dateFormat "20060102T150405" $startTime }}
+DTEND;TZID={{ .Scratch.Get "tz" }}:{{dateFormat "20060102T150405" $endTime }}
 SUMMARY:Hack Day #{{ $.Site.Data.events.edition }} - {{ .Title }}
 DESCRIPTION:{{ trim (plainify .Content) "\n" }}
 LOCATION:{{ .Params.location }}
