@@ -7,7 +7,9 @@ menu:
     weight: 10
 ---
 
-Join us on the 1st of June for our fifth monthly Code for Romania Hack Day for 2019. If you’re in Bucharest, Timișoara, Cluj-Napoca or Iași you can participate in-person at one of the Code for Romania local community events. Bring your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person in one of the four cities you can always join us online and work from home or from your favorite coffee shop!
+June,1 2019: Get ready for Hackday #5 and our first international HackDay ever! This month, you can participate in person at one of our community HackDay events in Bucharest, Timișoara, Cluj-Napoca or Iași, join online via Google Meet and Slack or meet us in San Francisco, at our first international HackDay hosted at GitHub.
+
+Just bring your laptop, get connected and start coding for one of the apps that will change Romania for the better!
 
 {{% columns class="is-multiline" %}}
 
