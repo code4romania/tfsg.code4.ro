@@ -65,9 +65,9 @@
 		</div>
 		<div class="hero-body">
 			<div class="container">
-				<div class="columns is-multiline">
+				<div class="columns is-multiline is-centered">
 					{{ range (where .Pages "Section" "events") }}
-						<div class="column is-12 is-6-desktop {{ cond (eq .Params.lab "online") "is-offset-3-desktop" "" }}">
+						<div class="column is-12 is-6-desktop">
 							{{- .Render "card" -}}
 						</div>
 					{{ end }}

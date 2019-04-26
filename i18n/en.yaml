@@ -93,6 +93,8 @@
   translation: Timișoara
 - id: option.where.online
   translation: I want to work online
+- id: option.where.sanfrancisco
+  translation: San Francisco
 
 - id: option.diet.none
   translation: None

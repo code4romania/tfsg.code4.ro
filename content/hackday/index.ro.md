@@ -10,7 +10,9 @@ aliases:
   - /hackday
 ---
 
-Vino alături de noi pe 1 iunie la a cincea ediție de Hack Day a Code for Romania de anul acesta. Dacă ești din București, Timișoara, Cluj-Napoca sau Iași participă la unul dintre evenimentele locale ale comunității Code for Romania. Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa în niciunul dintre cele patru orașe, atunci poți să ni te alături online și să lucrezi de oriunde.
+Pe 1 iunie, a cincea ediție HackDay a Code for Romania de anul acesta vine cu o premieră absolută: primul HackDay internațional. Pe lângă evenimentele locale lunare ale comunității Code for Romania din București, Timișoara, Cluj-Napoca sau Iași, pe 1 iunie ne vom putea întâlni și în San Francisco, la sediul GitHub.
+
+Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa în niciunul dintre cele cinci orașe, atunci poți să ni te alături online și să lucrezi de oriunde.
 
 {{% columns class="is-multiline" %}}
 
