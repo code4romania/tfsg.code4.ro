@@ -15,18 +15,24 @@
 					<div class="media-content">
 						<div class="content">
 							<h1 class="title is-size-5-touch is-size-4-desktop has-text-black">{{ .Title }}</h1>
-							<p class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
-								<span class="location is-block">{{ .Params.location }}</span>
-								<span class="time is-block">{{ $.Site.Data.events.startTime }}</span>
-							</p>
+							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
+								<div class="location">{{ .Params.location }}</div>
+								<div class="time">
+									{{ $.Site.Data.events.startTime }}
+
+									{{ if and (isset .Params "offset") (ne .Params.offset $.Site.Data.events.offset) }}
+										<small class="has-text-grey">(UTC{{ .Params.offset }})</small>
+									{{ end }}
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="column is-narrow has-text-right content">
-				<a href="{{ (printf "/hackday/?where=%s" .Params.lab) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
+				<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
 				{{ with .OutputFormats.Get "Calendar" }}
-					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.lab }}.ics">{{ i18n "event.calendar" }}</a>
+					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
 				{{ end }}
 			</div>
 		</div>
