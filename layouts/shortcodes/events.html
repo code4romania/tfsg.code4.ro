@@ -1,0 +1,11 @@
+<div class="section is-slim">
+	<div class="columns is-multiline is-centered">
+		{{ range (where $.Site.Pages "Section" "events") }}
+			{{ if .File }}
+				<div class="column is-12 is-6-desktop">
+					{{- .Render "card" -}}
+				</div>
+			{{ end }}
+		{{ end }}
+	</div>
+</div>

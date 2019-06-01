@@ -28,6 +28,14 @@ img {
 	a:not(.button) {
 		text-decoration: underline;
 	}
+
+	figure {
+		margin: 0;
+
+		img {
+			display: block;
+		}
+	}
 }
 
 .section-header {
@@ -83,4 +91,9 @@ img {
 	&.is-narrow {
 		max-width: $tablet;
 	}
+}
+
+.section.is-slim {
+	padding-right: 0;
+	padding-left: 0;
 }
