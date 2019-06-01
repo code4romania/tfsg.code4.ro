@@ -26,6 +26,8 @@
   translation: adaugă în calendar
 - id: event.rsvp
   translation: RSVP
+- id: event.edition
+  translation: Ediția
 
 - id: projects.complete
   translation: Proiecte finalizate

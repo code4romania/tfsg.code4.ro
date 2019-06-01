@@ -26,6 +26,8 @@
   translation: add to calendar
 - id: event.rsvp
   translation: RSVP
+- id: event.edition
+  translation: Edition
 
 - id: projects.complete
   translation: Finished projects

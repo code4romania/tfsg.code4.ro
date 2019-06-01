@@ -1,17 +1,20 @@
-Bună,
+Hello, superhero!
 
-îți mulțumim că te-ai înscris la o nouă ediție de HackDay Code for Romania.
+Ne vedem curând la HackDay!
 
-Iată câteva detalii despre ce se întâmplă la următorul HackDay.
+Ca de obicei, ne întâlnim în comunitățile locale:
+>> Dacă ești din București - Mater Library, ora 10.00
+>> Dacă ești din Iași - FabLab, ora 10.00
+>> Dacă ești din Cluj-Napoca - ScoutHouse, ora 10.00
+>> Dacă ești din Timișoara - Devplant Cowork, ora 10.00
 
-:: Te așteptăm începând cu ora 10.00 în București, Cluj-Napoca, Iași sau Timișoara cu cafea, mâncare și stickere 😊.
-:: Vino cu laptopul, de toate celelate se ocupă echipa noastră.
-:: Dacă ai bifat că vrei să lucrezi online, atunci vei fi invitat pe Slack pe canalele dedicate HackDay-ului în dimineața de sâmbătă, înainte de eveniment.
-:: Vom coda 12 ore, așadar poți veni oricând pe parcursul zilei, dar dimineață la 10.30 vom avea un moment de set-up de lucru, iar la prânz avem un invitat special.
-:: Joi seara, înainte de HackDay, vei primi un e-mail cu detalii despre repo-uri, task-uri și cine sunt persoanele responsabile de fiecare proiect în parte.
+Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
+<https://github.com/code4romania/hackdays>
 
-Îți mulțumim din nou că ești un om minunat care vrea să schimbe țara lui în bine și nu uita: We are the ones we’ve been waiting for! We commit to change!
+În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație să dai join workspace-ului nostru.
 
-Pentru orice întrebare, scrie-ne la adresa contact@code4.ro!
+Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
-Echipa Code for Romania
+We are the ones we've been waiting for!
+
+Ne vedem la HackDay!

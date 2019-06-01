@@ -2,9 +2,11 @@
 	<div class="page {{- if .Layout }} {{ .Layout }}{{ end }}">
 		<div class="container">
 			<header class="section section-header">
-				<h1 class="title">{{ .Title }}</h1>
+				<h1 class="title">{{ .Title }} #{{ $.Site.Data.events.edition }}</h1>
+				{{ with $.Site.Data.events }}
+					<p class="subtitle">{{ dateFormat "02 Jan 2006 @ 15:04" (printf "%s %s:00" .date .startTime) }}</p>
+				{{ end }}
 			</header>
-
 
 			<div class="section">
 				<div class="content">
