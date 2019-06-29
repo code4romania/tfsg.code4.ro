@@ -1,6 +1,6 @@
 language: generic
 env:
-  HUGO_VERSION: "0.55.4"
+  HUGO_VERSION: "0.55.6"
 
 cache:
   pip: true
@@ -12,7 +12,7 @@ install:
   - tar -xzf /tmp/hugo.tar.gz -C $HOME/bin
 
 script:
-  - npm install
+  - npm install --no-save
   - npm run lint:css
   - npm run lint:js
   - npm run production
