@@ -5,4 +5,5 @@ location: Scout House
 weight: 2
 outputs:
   - Calendar
+draft: true
 ---
