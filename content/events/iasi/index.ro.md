@@ -5,4 +5,5 @@ location: FabLab
 weight: 3
 outputs:
   - Calendar
+draft: true
 ---
