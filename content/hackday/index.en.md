@@ -9,7 +9,7 @@ menu:
 
 Join us for our monthly Code for Romania Hack Day!
 
-If you’re in Bucharest, Timișoara, Cluj-Napoca or Iași you can participate in-person at one of the Code for Romania local community events. Just bring your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person in one of our local events you can always join us online and work from home or from your favorite coffee shop!
+Be part of the change you want to see in the world! Just grab your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person, in Bucharest, you can always join us online and work from home or from your favorite coffee shop!
 
 {{< events >}}
 
