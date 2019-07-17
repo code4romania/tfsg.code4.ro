@@ -12,7 +12,7 @@ aliases:
 
 Vino alături de noi la o nouă ediție de Hack Day a Code for Romania!
 
-Dacă ești din București, Timișoara, Cluj-Napoca sau Iași participă la unul dintre evenimentele locale ale comunității Code for Romania. Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa în niciunul dintre evenimentele locale, atunci poți să ni te alături online și să lucrezi de oriunde.
+Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la una dintre viitoarele aplicații care vor schimba România în bine. Dacă nu poți participa fizic la evenimentul din București, atunci poți să ni te alături online și să lucrezi de oriunde.
 
 {{< events >}}
 
