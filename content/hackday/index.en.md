@@ -18,23 +18,26 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 {{% column %}}
 #### Projects we are currently working on:
 
-* Redirectioneaza.ro
 * ANABI
-* Data Portal
 * Catalog Politic
 * Centru Civic
 * Monitorizare Vot
+* Legal Consultation
+* Seismic Risc
 {{% /column %}}
 
 {{% column %}}
 #### Tehnologii:
 
-* Angular 2
+* Angular
+* React
 * Node.js (Express)
-* Python (webapp2, Flask, Django, PyBossa, Moonsheep)
-* .NET
+* Python (webapp2, Flask, Django)
+* .NET Core
 * Android (Java / Kotlin)
 * iOS (swift)
+* Java/Spring Boot
+* PHP/Laravel
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}

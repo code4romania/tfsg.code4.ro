@@ -123,3 +123,9 @@
   translation: iOS
 - id: option.tech.other
   translation: Altele
+- id: option.tech.react
+  translation: React
+- id: option.tech.java
+  translation: Java
+- id: option.tech.laravel
+  translation: Laravel
