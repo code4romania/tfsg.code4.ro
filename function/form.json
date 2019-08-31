@@ -39,6 +39,9 @@
 			"other": false,
 			"options": [
 				"bucuresti",
+				"iasi",
+				"cluj",
+				"timisoara",
 				"online"
 			]
 		},
