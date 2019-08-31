@@ -39,6 +39,9 @@
 			"other": false,
 			"options": [
 				"bucuresti",
+				"iasi",
+				"cluj",
+				"timisoara",
 				"online"
 			]
 		},
@@ -70,6 +73,7 @@
 				"angular",
 				"react",
 				"android",
+				"kotlin",
 				"ios",
 				"java",
 				"laravel"

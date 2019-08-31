@@ -27,6 +27,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 * Monitorizare Vot
 * Legal Consultation
 * Seismic Risc
+* Rezultate Vot
 {{% /column %}}
 
 {{% column %}}

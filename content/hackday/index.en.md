@@ -24,6 +24,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 * Monitorizare Vot
 * Legal Consultation
 * Seismic Risc
+* Rezultate Vot
 {{% /column %}}
 
 {{% column %}}

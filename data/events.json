@@ -1,8 +1,8 @@
 {
-	"edition": "8",
+	"edition": "9",
 	"tz": "Europe/Bucharest",
 	"offset": "+03:00",
-	"date": "2019-08-31",
+	"date": "2019-09-28",
 	"startTime": "10:00",
 	"endTime": "22:00"
 }
