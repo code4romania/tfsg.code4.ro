@@ -25,7 +25,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 * Catalog Politic
 * Centru Civic
 * Monitorizare Vot
-* Legal Consultation
+* Expert Consultation
 * Seismic Risc
 * Rezultate Vot
 {{% /column %}}
