@@ -22,7 +22,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 * Catalog Politic
 * Centru Civic
 * Monitorizare Vot
-* Legal Consultation
+* Expert Consultation
 * Seismic Risc
 * Rezultate Vot
 {{% /column %}}
