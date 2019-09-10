@@ -18,6 +18,8 @@ function form() {
 					continue;
 
 				this.instance.where.selectedIndex = i;
+
+				window.scrollTo(0, document.querySelector('form').offsetTop || 0);
 			}
 		}
 	}
