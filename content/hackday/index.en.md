@@ -9,7 +9,7 @@ menu:
 
 Join us for our monthly Code for Romania Hack Day!
 
-Be part of the change you want to see in the world! Just grab your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person, in Bucharest, you can always join us online and work from home or from your favorite coffee shop!
+Be part of the change you want to see in the world! Just grab your laptop, get connected and start coding for one of the apps that will change Romania for the better! If you can’t join us in person, in your city, you can always join us online and work from home or from your favorite coffee shop!
 
 {{< events >}}
 
