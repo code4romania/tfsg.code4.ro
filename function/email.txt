@@ -1,13 +1,15 @@
 Hello, superhero!
 
-Ne vedem curând la HackDay!
+Ne bucurăm că te-ai înscris. La acest Hack Day ne întâlnim în comunitățile locale:
+> Dacă ești din București - Mater Library, ora 10.00
+> Dacă ești din Iași - FabLab, ora 10.00
+> Dacă ești din Cluj-Napoca - ScoutHouse, ora 10.00
+> Dacă ești din Timișoara - Devplant Cowork, ora 10.00
 
-De data aceasta ne întâlnim să codăm în București și online. Vei primi detalii cu privire la adresă dacă vrei să vii la eveniment în București sau informații utile și persoane de contact dacă te-ai înregistrat online.
-
-Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
+Vei primi detalii suplimentare pe email dacă te-ai înscris să lucrezi online. Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
 <https://github.com/code4romania/hackdays>
 
-În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație să dai join workspace-ului nostru.
+În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace nostru.
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
