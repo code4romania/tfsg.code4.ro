@@ -131,3 +131,10 @@
   translation: Laravel
 - id: option.tech.kotlin
   translation: Kotlin
+
+- id: donate_20.title
+  translation: Direcționează 20% din impozit către Code for Romania!
+- id: donate_20.call_to_action
+  translation: Află cum!
+- id: donate_20.url
+  translation: https://code4.ro/ro/implica-te/

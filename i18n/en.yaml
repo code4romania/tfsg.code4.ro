@@ -131,3 +131,10 @@
   translation: Laravel
 - id: option.tech.kotlin
   translation: Kotlin
+
+- id: donate_20.title
+  translation: Redirect 20% of your income tax to Come for Romania!
+- id: donate_20.call_to_action
+  translation: Find out how!
+- id: donate_20.url
+  translation: https://code4.ro/en/get-involved/
