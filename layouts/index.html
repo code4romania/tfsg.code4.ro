@@ -68,7 +68,7 @@
 		<div class="hero-body">
 			<div class="container">
 				<div class="columns is-multiline is-centered">
-					{{ range (where .Pages "Section" "events") }}
+					{{ range (where .Site.RegularPages "Section" "events") }}
 						<div class="column is-12 is-6-desktop">
 							{{- .Render "card" -}}
 						</div>
