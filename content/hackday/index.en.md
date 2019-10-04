@@ -18,11 +18,11 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 {{% column %}}
 #### Projects we are currently working on:
 
-* Catalog Politic
-* Centru Civic
-* Monitorizare Vot
+* Data Portal
+* Theatre Hub
 * Expert Consultation
 * Seismic Risc
+* Declaratii de Avere
 * Rezultate Vot
 {{% /column %}}
 
