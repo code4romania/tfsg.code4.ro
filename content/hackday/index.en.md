@@ -18,7 +18,6 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 {{% column %}}
 #### Projects we are currently working on:
 
-* ANABI
 * Catalog Politic
 * Centru Civic
 * Monitorizare Vot
