@@ -22,7 +22,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 * Theatre Hub
 * Expert Consultation
 * Seismic Risc
-* Declaratii de Avere
+* Declarații de Avere
 * Rezultate Vot
 {{% /column %}}
 

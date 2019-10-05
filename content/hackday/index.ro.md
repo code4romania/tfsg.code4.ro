@@ -25,7 +25,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 * Theatre Hub
 * Expert Consultation
 * Seismic Risc
-* Declaratii de Avere
+* Declarații de Avere
 * Rezultate Vot
 {{% /column %}}
 
