@@ -21,12 +21,11 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 {{% column %}}
 #### Proiecte în lucru:
 
-* ANABI
-* Catalog Politic
-* Centru Civic
-* Monitorizare Vot
+* Data Portal
+* Theatre Hub
 * Expert Consultation
 * Seismic Risc
+* Declarații de Avere
 * Rezultate Vot
 {{% /column %}}
 
