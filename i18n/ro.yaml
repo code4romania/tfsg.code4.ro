@@ -36,6 +36,8 @@
 
 - id: partners
   translation: Partenerii noștri
+- id: sponsor
+  translation: Sponsor național
 
 - id: response.success
   translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!
