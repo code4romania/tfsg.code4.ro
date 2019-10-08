@@ -19,7 +19,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 #### Projects we are currently working on:
 
 * Data Portal
-* Theatre Hub
+* Theater Hub
 * Expert Consultation
 * Seismic Risc
 * Declarații de Avere
