@@ -22,7 +22,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 #### Proiecte în lucru:
 
 * Data Portal
-* Theatre Hub
+* Theater Hub
 * Expert Consultation
 * Seismic Risc
 * Declarații de Avere
