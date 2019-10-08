@@ -1,7 +1,7 @@
 Hello, superhero!
 
 Ne bucurăm că te-ai înscris. La acest Hack Day ne întâlnim în comunitățile locale:
-> Dacă ești din București - Mater Library, ora 10.00
+> Dacă ești din București - Nod Makerspace, ora 10.00
 > Dacă ești din Iași - FabLab, ora 10.00
 > Dacă ești din Cluj-Napoca - ScoutHouse, ora 10.00
 > Dacă ești din Timișoara - Devplant Cowork, ora 10.00
@@ -9,7 +9,7 @@ Ne bucurăm că te-ai înscris. La acest Hack Day ne întâlnim în comunități
 Vei primi detalii suplimentare pe email dacă te-ai înscris să lucrezi online. Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
 <https://github.com/code4romania/hackdays>
 
-În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace nostru.
+În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
