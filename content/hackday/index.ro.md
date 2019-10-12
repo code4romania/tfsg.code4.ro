@@ -22,7 +22,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 #### Proiecte în lucru:
 
 * [Data Portal](https://github.com/orgs/code4romania/projects/12)
-* Theater Hub ([API](https://github.com/code4romania/theater-hub-api), [client](https://github.com/code4romania/theater-hub-client)
+* Theater Hub ([API](https://github.com/code4romania/theater-hub-api), [client](https://github.com/code4romania/theater-hub-client))
 * [Expert Consultation](https://github.com/orgs/code4romania/projects/15)
 * [Seismic Risc](https://github.com/orgs/code4romania/projects/16)
 * [Declarații de Avere](https://github.com/orgs/code4romania/projects/10)
