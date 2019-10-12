@@ -19,7 +19,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 #### Projects we are currently working on:
 
 * [Data Portal](https://github.com/orgs/code4romania/projects/12)
-* Theater Hub ([API](https://github.com/code4romania/theater-hub-api), [client](https://github.com/code4romania/theater-hub-client)
+* Theater Hub ([API](https://github.com/code4romania/theater-hub-api), [client](https://github.com/code4romania/theater-hub-client))
 * [Expert Consultation](https://github.com/orgs/code4romania/projects/15)
 * [Seismic Risc](https://github.com/orgs/code4romania/projects/16)
 * [Declarații de Avere](https://github.com/orgs/code4romania/projects/10)
