@@ -42,6 +42,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Find out more about [all Code for Romania projects](https://bit.ly/2SREoGf).
+
 If you have any questions, write to us at [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}
 
