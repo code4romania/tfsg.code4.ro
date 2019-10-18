@@ -45,6 +45,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Citește despre [toate proiectele Code for Romania](https://bit.ly/2SREoGf).
+
 Dacă ai întrebări, scrie-ne pe [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}
 
