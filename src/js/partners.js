@@ -15,6 +15,8 @@ function partners() {
                     document.getElementById('partners_'+city).style.display = 'none';    
                 }
             });
+
+            return;
         }
         
         cities.forEach(function (city) {
