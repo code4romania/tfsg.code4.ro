@@ -36,8 +36,10 @@
 
 - id: partners
   translation: Our Partners
-- id: sponsor
-  translation: National Sponsor
+- id: sponsors
+  translation: National Sponsors
+- id: local.sponsors
+  translation: Sponsors in 
 
 - id: response.success
   translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!

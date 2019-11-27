@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Scout House
+location: Evozon
 weight: 2
 outputs:
   - Calendar
