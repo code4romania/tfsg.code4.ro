@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Evozon
+location: Location, soon
 weight: 2
 outputs:
   - Calendar
