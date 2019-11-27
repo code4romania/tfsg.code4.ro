@@ -1,8 +1,8 @@
 {
-	"edition": "11",
+	"edition": "12",
 	"tz": "Europe/Bucharest",
 	"offset": "+03:00",
-	"date": "2019-11-23",
+	"date": "2019-12-14",
 	"startTime": "10:00",
 	"endTime": "22:00"
 }
