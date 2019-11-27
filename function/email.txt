@@ -7,7 +7,7 @@ Ne bucurăm că te-ai înscris. La acest Hack Day ne întâlnim în comunități
 > Dacă ești din Timișoara - Devplant Cowork, ora 10.00
 
 Vei primi detalii suplimentare pe email dacă te-ai înscris să lucrezi online. Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
-<https://github.com/code4romania/hackdays>
+<https://github.com/orgs/code4romania/projects>
 
 În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 
