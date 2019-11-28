@@ -24,6 +24,7 @@ Be part of the change you want to see in the world! Just grab your laptop, get c
 * [Seismic Risc](https://github.com/orgs/code4romania/projects/16)
 * [Declarații de Avere](https://github.com/orgs/code4romania/projects/10)
 * [Rezultate Vot](https://github.com/orgs/code4romania/projects/18)
+* [Resource & Volunteer Map](https://github.com/orgs/code4romania/projects/14)
 {{% /column %}}
 
 {{% column %}}
