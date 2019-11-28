@@ -27,6 +27,7 @@ Participă și tu la schimbare! Vino cu laptopul, conectează-te și codează la
 * [Seismic Risc](https://github.com/orgs/code4romania/projects/16)
 * [Declarații de Avere](https://github.com/orgs/code4romania/projects/10)
 * [Rezultate Vot](https://github.com/orgs/code4romania/projects/18)
+* [Resource & Volunteer Map](https://github.com/orgs/code4romania/projects/14)
 {{% /column %}}
 
 {{% column %}}
