@@ -53,7 +53,7 @@
 - id: label.email
   translation: Email
 - id: label.emailUpdates
-  translation: I agree to be contacted by the Code for Romania team with updates regarding the Monthly Hack Days events.
+  translation: I agree to be contacted by the Code for Romania team with updates.
 - id: label.diet
   translation: Are you attending the event? Let us know of your dietary preferences
 - id: label.diet.other
