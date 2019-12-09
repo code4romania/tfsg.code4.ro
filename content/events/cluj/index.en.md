@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Location, soon
+location: Cluj Cowork
 weight: 2
 outputs:
   - Calendar
