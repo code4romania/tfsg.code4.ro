@@ -66,7 +66,12 @@
                 "id": "acrobatica",
                 "name": "Pizza Acrobatica",
                 "url": "https://acrobatica.ro"
-            }
+            },
+			{
+				"id": "clujcowork",
+				"name": "Cluj Cowork",
+				"url": "http://clujcowork.ro/"
+			}
         ]
     }
 }
