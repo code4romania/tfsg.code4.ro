@@ -5,11 +5,6 @@
 		"url": "https://materlibrary.ro/"
 	},
 	{
-		"id": "scouthouse",
-		"name": "Scout House",
-		"url": "https://scouthouse.ro/"
-	},
-	{
 		"id": "fablabiasi",
 		"name": "FabLab Iași",
 		"url": "http://www.fablabiasi.ro/"
@@ -43,5 +38,10 @@
 		"id": "acrobatica",
 		"name": "Pizza Acrobatica",
 		"url": "https://acrobatica.ro"
+	},
+	{
+		"id": "clujcowork",
+		"name": "Cluj Cowork",
+		"url": "http://clujcowork.ro/"
 	}
 ]
