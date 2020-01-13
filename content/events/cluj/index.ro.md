@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Cluj Cowork
+location: Catalysts
 weight: 2
 outputs:
   - Calendar
