@@ -8,9 +8,11 @@ function partners() {
         var cities = ["bucuresti", "iasi", "cluj", "timisoara"];
 
         if (city_filter) {
+            // Hide the row containing all partners on city pages
             document.getElementById("partners_all").style.display = 'none';
         } else {
             cities.forEach(function (city) {
+                // Hide the local partners on non-city pages (main page)
                 if (document.getElementById('partners_'+city)) {
                     document.getElementById('partners_'+city).style.display = 'none';    
                 }
@@ -22,7 +24,10 @@ function partners() {
         cities.forEach(function (city) {
             if (city != city_filter) {
                 if (document.getElementById('sponsors_'+city)) {
-                    document.getElementById('sponsors_'+city).parentElement.parentElement.style.display = 'none';    
+                    document.getElementById('sponsors_'+city).style.display = 'none';
+                }
+                if (document.getElementById('title_sponsors_'+city)) {
+                    document.getElementById('title_sponsors_'+city).style.display = 'none';  
                 }
                 if (document.getElementById('partners_'+city).style) {
                     document.getElementById('partners_'+city).style.display = 'none';
