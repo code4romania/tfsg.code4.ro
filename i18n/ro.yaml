@@ -39,7 +39,7 @@
 - id: sponsors
   translation: Sponsori naționali
 - id: local.sponsors
-  translation: Sponsori 
+  translation: Sponsori
 
 - id: response.success
   translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!
