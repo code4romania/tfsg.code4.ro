@@ -39,7 +39,7 @@
 - id: sponsors
   translation: Sponsori naționali
 - id: local.sponsors
-  translation: Sponsori 
+  translation: Sponsori
 
 - id: response.success
   translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!
@@ -54,6 +54,8 @@
   translation: Email
 - id: label.emailUpdates
   translation: Sunt de acord să fiu contactat de echipa Code for Romania cu update-uri.
+- id: label.phone
+  translation: Telefon
 - id: label.diet
   translation: Vii la eveniment? Spune-ne dacă ai vreo restricție alimentară
 - id: label.diet.other
