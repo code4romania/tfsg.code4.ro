@@ -21,8 +21,14 @@
 		{
 			"name": "email",
 			"type": "email",
-			"width": 12,
+			"width": 6,
 			"required": true
+		},
+		{
+			"name": "phone",
+			"type": "tel",
+			"width": 6,
+			"required": false
 		},
 		{
 			"name": "emailUpdates",
