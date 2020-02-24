@@ -15,19 +15,9 @@
 		"url": "https://devplant.ro/"
 	},
 	{
-		"id": "heineken",
-		"name": "Heineken",
-		"url": "https://www.heineken.com/ro/"
-	},
-	{
 		"id": "pinmagazine",
 		"name": "PIN magazine",
 		"url": "https://www.pinmagazine.ro/"
-	},
-	{
-		"id": "starbucks",
-		"name": "Starbucks",
-		"url": "http://www.starbucksromania.ro/"
 	},
 	{
 		"id": "eisberg",
