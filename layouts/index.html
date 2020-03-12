@@ -47,7 +47,7 @@
 	<section class="hero is-link is-bold">
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-size-2">Upgrading Romania in</h1>
+				<h1 class="title is-size-2">Upgrading Romania <span class="is-size-4">(online, this time)</span> in</h1>
 				<div class="content">
 					{{ with $.Site.Data.events }}
 						<div id="countdown" class="countdown columns is-mobile" data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">
