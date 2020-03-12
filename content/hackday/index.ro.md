@@ -23,7 +23,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}#EmergencyNews{{% /highlight %}}
+#### {{% highlight %}}Platformă și Add-on de browser pentru știri oficiale{{% /highlight %}}
 
 **Obiectiv**: Combatarea dezinformării.
 
@@ -53,7 +53,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Aid Management Hub{{% /highlight %}}
+#### {{% highlight %}}Platformă de strângere de ajutoare{{% /highlight %}}
 
 **Obiectiv**: Colectarea coerentă și în siguranță a ajutoarelor.
 

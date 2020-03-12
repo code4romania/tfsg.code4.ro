@@ -20,7 +20,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}#EmergencyNews{{% /highlight %}}
+#### {{% highlight %}}Platformă și Add-on de browser pentru știri oficiale{{% /highlight %}} 
+
+*Online platform and browser add-on for official news*
 
 **Objective**: Fight against disinformation.
 
@@ -30,7 +32,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Informing the public through decision trees{{% /highlight %}}
+#### {{% highlight %}}Arbore decizional pentru informarea publicului{{% /highlight %}} 
+
+*Informing the public through decision trees*
 
 **Objective**: Informing the public, in a clear and efficient manner, in order to increase cooperation with emergency measures.
 
@@ -40,7 +44,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Data visualization of real-time cases{{% /highlight %}}
+#### {{% highlight %}}Vizualizare de date a cazurilor din teren{{% /highlight %}} 
+
+*Data visualization of real-time cases*
 
 **Objective**: Informing the public in a clear way, increasing transparency, diminishing the panic response.
 
@@ -50,7 +56,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Aid Management Hub{{% /highlight %}}
+#### {{% highlight %}}Platformă de strângere de ajutoare{{% /highlight %}} 
+
+*Aid management platform*
 
 **Objective**: Aggregating all efforts to help and assist during an emergency situation, in a safe and coherent manner.
 
