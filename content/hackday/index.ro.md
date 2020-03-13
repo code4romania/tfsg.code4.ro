@@ -23,41 +23,53 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Platformă și Add-on de browser pentru știri oficiale{{% /highlight %}}
+#### {{% highlight %}}Date la zi{{% /highlight %}}
+
+**Obiectiv**: Informare clară a publicului, creșterea transparenței, diminuarea panicii.
+
+**Cum**: Sistem care preia datele anonimizat din baza de date de cazuri și o transformă in informație digerabilă pentru publicul larg. Adaptata pentru toate dispozitivele.
+{{% /column %}}
+
+{{% column class="is-half-tablet" %}}
+#### {{% highlight %}}Știri oficiale{{% /highlight %}}
 
 **Obiectiv**: Combatarea dezinformării.
 
-**Cum**: Add-on de browser care identifică în orice pagină web expresii cheie și adaugă peste acestea un infobox care trimite către sursele oficiale de informare.
+**Cum**: Platformă care centralizează toate comunicatele oficiale, conferințele de presă și hotărârile Comitetului pentru Situații Speciale de Urgență. Add-on de browser care identifică în orice pagină web expresii cheie și adaugă peste acestea un infobox care trimite către sursele oficiale de informare.
 
 *Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Arbore decizional pentru informarea publicului{{% /highlight %}}
+#### {{% highlight %}}Ce mă fac{{% /highlight %}}
 
 **Obiectiv**: Informarea clară și eficientă a publicului, creșterea gradului de respectare a regulilor.
 
-**Cum**: O platformă web cu ghiduri, chestionare și arbori decizionali care ajută populația să înțeleaga situația și îi ghidează în ceea ce trebuie să facă.
-
-*Concept dezvoltat pornind de la platforme similare dezvoltate de alte state.*
+**Cum**: O platformă web cu ghiduri, chestionare și arbori decizionali care ajută populația să înțeleagă situația și îi ghidează în ceea ce trebuie să facă.
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Vizualizare de date a cazurilor din teren{{% /highlight %}}
+#### {{% highlight %}}Stăm acasă{{% /highlight %}}
 
-**Obiectiv**: Informare clară a publicului, creșterea transparenței, diminuarea panicii.
+**Obiectiv**: Reducerea suprasolicitarii numerelor de urgență, colectare de informatii rapid si facil de la o populatie foarte mare, evaluarea constantă a unei populatii mari de oameni, oferirea de sprijin în mangementul cazurilor pentru autoritati.
 
-**Cum**: Sistem care preia datele anonimizat din baza de date de cazuri și o transformă în informație digerabilă pentru publicul larg. Adaptată pentru toate dispozitivele.
-
-*Concept dezvoltat pornind de la platforma dezvoltată de Singapore.*
+**Cum**: Centralizarea și monitorizarea stării persoanelor aflate în auto-izolare cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Platformă de strângere de ajutoare{{% /highlight %}}
+#### {{% highlight %}}Diaspora Hub{{% /highlight %}}
+
+**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stăriilor, informarea și oferirea de sprijin pentru aceștia.
+
+**Cum**: Centralizarea și monitorizarea stării persoanelor aflate în carantină, auto-izolare sau care au nevoie de ajutor, cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
+{{% /column %}}
+
+{{% column class="is-half-tablet" %}}
+#### {{% highlight %}}RO Help{{% /highlight %}}
 
 **Obiectiv**: Colectarea coerentă și în siguranță a ajutoarelor.
 
-**Cum**: Platformă digitală care listează ONG-uri verificate și validate care în eventualitatea unui dezastru major vor avea capacitatea de a colecta și distribui resurse în teritoriu pe bază de nevoi clare formulate fie de persoane fizice, fie de alte ONG-uri sau instituții.
+**Cum**: Aplicația listează ONG-uri verificate șiv alidate pentru a colecta și distribui resurse.
 
 *Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
 {{% /column %}}
