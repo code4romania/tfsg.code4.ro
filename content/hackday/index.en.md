@@ -19,6 +19,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 **Projects we are currently working on**:
 {{% /column %}}
 
+<!-- Date la zi -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Date la zi{{% /highlight %}} 
 
@@ -27,6 +28,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 **How**: System that takes in anonymised data from the cases database and transforms it into information understandable by the large public. Adapted for all devices.
 {{% /column %}}
 
+<!-- Știri oficiale -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Știri oficiale{{% /highlight %}} 
 
@@ -37,6 +39,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 *This concept was developed in the #CivicLabs program, in Code for Romania.*
 {{% /column %}}
 
+<!-- Ce mă fac -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Ce mă fac{{% /highlight %}} 
 
@@ -45,6 +48,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 **How**: Web platform with guides, questionaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
 {{% /column %}}
 
+<!-- Stăm acasă -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Stăm acasă{{% /highlight %}} 
 
@@ -53,12 +57,13 @@ Be part of the change! In these times, the calm and diligence that this communit
 **How**: Centralization and monitoring of the state of people under auto-isolation with standardized questionnaires completed daily directly in the users’ web application, for their families.
 {{% /column %}}
 
+<!-- Diaspora Hub -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Diaspora Hub{{% /highlight %}}
 
-**Objective**: Data collection of the state of romanian patients living outside the country, daily evaluation of their health state, information and support for them.
+**Objective**: Collecting data about the state that Romanian citizens living abroad are in, along with daily evaluation, offering information and support. 
 
-**How**: Centralization and monitoring of the state of people under quarantine, auto-isolation or in need of help with standardized questionnaires completed daily directly in the users’ web application, for their families.
+**Cum**: Any citizen living abroad can create an account in the platform, where, though a simple questionnaire, they can configure their needs and receive guidance towards specific aid. This set of data is centralized and sent to the consular authorities. The users can monitor their own health with a simple questionnaire that they fill out regularly, for their own self, and for their families. 
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
