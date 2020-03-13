@@ -22,14 +22,18 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 **Proiecte în lucru**:
 {{% /column %}}
 
+<!-- Date la zi -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Date la zi{{% /highlight %}}
 
 **Obiectiv**: Informare clară a publicului, creșterea transparenței, diminuarea panicii.
 
 **Cum**: Sistem care preia datele anonimizat din baza de date de cazuri și o transformă in informație digerabilă pentru publicul larg. Adaptata pentru toate dispozitivele.
+
+*Concept dezvoltat pornind de la platforma dezvoltată de Singapore.*
 {{% /column %}}
 
+<!-- Știri oficiale -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Știri oficiale{{% /highlight %}}
 
@@ -40,6 +44,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 *Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
 {{% /column %}}
 
+<!-- Ce mă fac -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Ce mă fac{{% /highlight %}}
 
@@ -48,22 +53,25 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 **Cum**: O platformă web cu ghiduri, chestionare și arbori decizionali care ajută populația să înțeleagă situația și îi ghidează în ceea ce trebuie să facă.
 {{% /column %}}
 
+<!-- Stăm acasă -->
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Stăm acasă{{% /highlight %}}
+#### {{% highlight %}}Stăm acasă{{% /highlight %}} 
 
 **Obiectiv**: Reducerea suprasolicitarii numerelor de urgență, colectare de informatii rapid si facil de la o populatie foarte mare, evaluarea constantă a unei populatii mari de oameni, oferirea de sprijin în mangementul cazurilor pentru autoritati.
 
 **Cum**: Centralizarea și monitorizarea stării persoanelor aflate în auto-izolare cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
 {{% /column %}}
 
+<!-- Diaspora Hub -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Diaspora Hub{{% /highlight %}}
 
-**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stăriilor, informarea și oferirea de sprijin pentru aceștia.
+**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stării lor, informarea și oferirea de sprijin pentru aceștia.
 
-**Cum**: Centralizarea și monitorizarea stării persoanelor aflate în carantină, auto-izolare sau care au nevoie de ajutor, cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
+**Cum**: Orice cetățean care locuiește în străinătate își poate creaun cont în platformă unde, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, este îndrumat spre ajutor specific. Aceste date sunt centralizate și transmise către autoritățile consulare. Utilizatorii pot să-și monitorizeze starea de sănătate cu ajutorul unor formulare completate recurent, pentru ei și pentru alți membri ai familiilor lor.
 {{% /column %}}
 
+<!-- RO Help -->
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}RO Help{{% /highlight %}}
 
