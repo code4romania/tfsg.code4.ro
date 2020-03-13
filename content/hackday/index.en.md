@@ -20,49 +20,55 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Platformă și Add-on de browser pentru știri oficiale{{% /highlight %}} 
+#### {{% highlight %}}Date la zi{{% /highlight %}} 
 
-*Online platform and browser add-on for official news*
+**Objective**: Clear information of the public, increase in transparency, diminishing panic.
 
-**Objective**: Fight against disinformation.
+**How**: System that takes in anonymised data from the cases database and transforms it into information understandable by the large public. Adapted for all devices.
+{{% /column %}}
 
-**How?**: A browser add-on that matches key expressions in any web page and adds an infobox to them, citing context from official sources.
+{{% column class="is-half-tablet" %}}
+#### {{% highlight %}}Știri oficiale{{% /highlight %}} 
+
+**Objective**: Combating disinformation.
+
+**Cum**: Platform which centralizes all the official press releases, press conferences and decisions of the Committee for Special Emergency Situations. Browser add-on which identifies in any web page key phrases and adds over them an info box which redirects towards official information sources.
 
 *This concept was developed in the #CivicLabs program, in Code for Romania.*
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Arbore decizional pentru informarea publicului{{% /highlight %}} 
+#### {{% highlight %}}Ce mă fac{{% /highlight %}} 
 
-*Informing the public through decision trees*
+**Objective**: Clear information of the public, increase in the level of proper actions taken.
 
-**Objective**: Informing the public, in a clear and efficient manner, in order to increase cooperation with emergency measures.
-
-**How?**: A platform containing guides, questionnaires and decisions trees which help the population understand the emergency situation, guides and informs their actions.
-
-*This concept was developed using similar platforms in other countries as reference.*
+**How**: Web platform with guides, questionaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Vizualizare de date a cazurilor din teren{{% /highlight %}} 
+#### {{% highlight %}}Stăm acasă{{% /highlight %}} 
 
-*Data visualization of real-time cases*
+**Objective**: Reduction in the over overloading of emergency phone numbers, quick and easy collection of information from a very large population, constant evaluation of a large population, the offer of support in the management of cases for authorities.
 
-**Objective**: Informing the public in a clear way, increasing transparency, diminishing the panic response.
-
-**How?**: A system that imports anonymous data from a casefile database and displays it as content that is easy to parse and understand for the general public. These visualizations are responsive and can be viewed on any device. 
-
-*This concept was developed using the Singapore visualization platform as reference.*
+**How**: Centralization and monitoring of the state of people under auto-isolation with standardized questionnaires completed daily directly in the users’ web application, for their families.
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Platformă de strângere de ajutoare{{% /highlight %}} 
+#### {{% highlight %}}Diaspora Hub{{% /highlight %}}
+
+**Objective**: Data collection of the state of romanian patients living outside the country, daily evaluation of their health state, information and support for them.
+
+**How**: Centralization and monitoring of the state of people under quarantine, auto-isolation or in need of help with standardized questionnaires completed daily directly in the users’ web application, for their families.
+{{% /column %}}
+
+{{% column class="is-half-tablet" %}}
+#### {{% highlight %}}RO Help{{% /highlight %}} 
 
 *Aid management platform*
 
-**Objective**: Aggregating all efforts to help and assist during an emergency situation, in a safe and coherent manner.
+**Objective**: Safe and coherent collection of aid.
 
-**How?**: A platform that lists verified NGOs which can collect and distribute resources across a specific territory in case of an emergency situation. This aid effort is based on clear needs, formulated either by citizens or by other NGOs and institutions.
+**How**: The application shows verified and validated NGOs for the collection and distribution of resources.
 
 *This concept was developed in the #CivicLabs program, in Code for Romania.*
 {{% /column %}}
