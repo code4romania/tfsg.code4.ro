@@ -69,7 +69,7 @@
 - id: label.submit
   translation: Înregistrează-te
 - id: label.codeofconduct
-  translation: 'Prin completarea acestui formular declari că peste 18 ani și că ai citit și ești de acord cu <a href="https://code4.ro/ro/codul-de-conduita/" target="_blank">Codul de Conduită</a> al Code for Romania'
+  translation: 'Prin completarea acestui formular declari că ai peste 18 ani și că ai citit și ești de acord cu <a href="https://code4.ro/ro/codul-de-conduita/" target="_blank">Codul de Conduită</a> al Code for Romania'
 
 - id: option.where.bacau
   translation: Bacău
