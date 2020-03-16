@@ -32,7 +32,7 @@ deploy:
     function_name: $AWS_LAMBDA_NAME
     region: $AWS_LAMBDA_REGION
     role: $AWS_LAMBDA_ROLE
-    runtime: nodejs8.10
+    runtime: nodejs12.x
     handler_name: handler
     zip: function
     skip_cleanup: true
