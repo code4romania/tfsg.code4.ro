@@ -40,6 +40,8 @@
   translation: National Sponsors
 - id: local.sponsors
   translation: Sponsors in
+- id: poweredby
+  translation: Powered by
 
 - id: response.success
   translation: Thank you for registering to attend this event. Further details will be sent via e-mail. Stay tuned and see you soon!
