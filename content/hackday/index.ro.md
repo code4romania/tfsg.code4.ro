@@ -77,7 +77,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 
 **Obiectiv**: Colectarea coerentă și în siguranță a ajutoarelor.
 
-**Cum**: Aplicația listează ONG-uri verificate șiv alidate pentru a colecta și distribui resurse.
+**Cum**: Aplicația listează ONG-uri verificate și validate pentru a colecta și distribui resurse.
 
 *Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
 {{% /column %}}
