@@ -7,7 +7,7 @@ function partners() {
 
         var cities = ["bucuresti", "iasi", "cluj", "timisoara"];
 
-        if (city_filter) {
+        if (city_filter && city_filter != "online") {
             // Hide the row containing all partners on city pages
             document.getElementById("partners_all").style.display = 'none';
         } else {
