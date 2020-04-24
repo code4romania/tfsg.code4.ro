@@ -29,8 +29,6 @@ Be part of the change! In these times, the calm and diligence that this communit
 
 [RoHelp](https://github.com/code4romania/diaspora-hub/projects/1) (Python 3.6 with Django)
 
-[Diaspora Hub](https://github.com/code4romania/diaspora-hub/projects/1) (React)
-
 [Stăm acasă](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
 
 {{% /column %}}

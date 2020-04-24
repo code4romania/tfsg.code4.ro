@@ -32,8 +32,6 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 
 [RoHelp](https://github.com/code4romania/diaspora-hub/projects/1) (Python 3.6 cu Django)
 
-[Diaspora Hub](https://github.com/code4romania/diaspora-hub/projects/1) (React)
-
 [Stăm acasă](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
 
 {{% /column %}}
