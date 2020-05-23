@@ -12,7 +12,7 @@ aliases:
 
 Alătură-te unei ediții de Hack Day derulată în întregime online, a Code for Romania!
 
-Participă și tu la schimbare! Este un moment în care calmul și determinarea de care a dat dovadă această comunitate până acum sunt încă și mai importante. Alătură-te efortului de a stopa răspândirea COVID-19, alegând unul din proiectele noi și lucrând la ele din confortul casei tale. 
+Participă și tu la schimbare! Este un moment în care calmul și determinarea de care a dat dovadă această comunitate până acum sunt încă și mai importante. Contribuie la proiectele din ecosistemul Covid-19, sau la unul dintre proiectele Tech for Social Good. 
 
 {{< events >}}
 
@@ -22,64 +22,34 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 **Proiecte în lucru**:
 {{% /column %}}
 
-<!-- Date la zi -->
+
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Date la zi{{% /highlight %}}
+#### {{% highlight %}}Ecosistemul Covid-19{{% /highlight %}}
 
-**Obiectiv**: Informare clară a publicului, creșterea transparenței, diminuarea panicii.
+[Ce trebuie să fac](https://github.com/orgs/code4romania/projects/26) (React)
 
-**Cum**: Sistem care preia datele anonimizat din baza de date de cazuri și o transformă in informație digerabilă pentru publicul larg. Adaptata pentru toate dispozitivele.
+[Date la zi](https://github.com/code4romania/date-la-zi/projects/1) (React, .NET)
 
-*Concept dezvoltat pornind de la platforma dezvoltată de Singapore.*
+[RoHelp](https://github.com/code4romania/diaspora-hub/projects/1) (Python 3.6 cu Django)
+
+[Stăm acasă](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
+
 {{% /column %}}
 
-<!-- Știri oficiale -->
+
 {{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Știri oficiale{{% /highlight %}}
+#### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
-**Obiectiv**: Combatarea dezinformării.
+[Vot România](https://github.com/orgs/code4romania/projects/25) (.NET, Angular)
 
-**Cum**: Platformă care centralizează toate comunicatele oficiale, conferințele de presă și hotărârile Comitetului pentru Situații Speciale de Urgență. Add-on de browser care identifică în orice pagină web expresii cheie și adaugă peste acestea un infobox care trimite către sursele oficiale de informare.
+[Rezultate Vot](https://github.com/orgs/code4romania/projects/18) (.NET, React)
 
-*Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
-{{% /column %}}
+[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 cu Django, React)
 
-<!-- Ce mă fac -->
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Ce mă fac{{% /highlight %}}
+[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java cu Spring Boot, Angular)
 
-**Obiectiv**: Informarea clară și eficientă a publicului, creșterea gradului de respectare a regulilor.
+[Asset Declarations](https://github.com/orgs/code4romania/projects/10) (Python 3.6 cu Django)
 
-**Cum**: O platformă web cu ghiduri, chestionare și arbori decizionali care ajută populația să înțeleagă situația și îi ghidează în ceea ce trebuie să facă.
-{{% /column %}}
-
-<!-- Stăm acasă -->
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Stăm acasă{{% /highlight %}} 
-
-**Obiectiv**: Reducerea suprasolicitarii numerelor de urgență, colectare de informatii rapid si facil de la o populatie foarte mare, evaluarea constantă a unei populatii mari de oameni, oferirea de sprijin în mangementul cazurilor pentru autoritati.
-
-**Cum**: Centralizarea și monitorizarea stării persoanelor aflate în auto-izolare cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
-{{% /column %}}
-
-<!-- Diaspora Hub -->
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Diaspora Hub{{% /highlight %}}
-
-**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stării lor, informarea și oferirea de sprijin pentru aceștia.
-
-**Cum**: Orice cetățean care locuiește în străinătate își poate creaun cont în platformă unde, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, este îndrumat spre ajutor specific. Aceste date sunt centralizate și transmise către autoritățile consulare. Utilizatorii pot să-și monitorizeze starea de sănătate cu ajutorul unor formulare completate recurent, pentru ei și pentru alți membri ai familiilor lor.
-{{% /column %}}
-
-<!-- RO Help -->
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}RO Help{{% /highlight %}}
-
-**Obiectiv**: Colectarea coerentă și în siguranță a ajutoarelor.
-
-**Cum**: Aplicația listează ONG-uri verificate șiv alidate pentru a colecta și distribui resurse.
-
-*Concept dezvoltat ca parte din programul #CivicLabs al Code for Romania.*
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}

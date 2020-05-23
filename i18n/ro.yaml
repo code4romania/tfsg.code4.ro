@@ -40,6 +40,8 @@
   translation: Sponsori naționali
 - id: local.sponsors
   translation: Sponsori
+- id: poweredby
+  translation: Powered by
 
 - id: response.success
   translation: Mulțumim ca te-ai înregistrat la acest eveniment. Vei primi mai multe detalii pe e-mail. Pe curând!
