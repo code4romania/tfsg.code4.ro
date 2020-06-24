@@ -22,31 +22,16 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 **Proiecte în lucru**:
 {{% /column %}}
 
-
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}Ecosistemul Covid-19{{% /highlight %}}
-
-[Ce trebuie să fac](https://github.com/orgs/code4romania/projects/26) (React)
-
-[Date la zi](https://github.com/code4romania/date-la-zi/projects/1) (React, .NET)
-
-[RoHelp](https://github.com/code4romania/diaspora-hub/projects/1) (Python 3.6 cu Django)
-
-[Stăm acasă](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
-
-{{% /column %}}
-
-
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
+
+[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java cu Spring Boot, Angular)
 
 [Vot România](https://github.com/orgs/code4romania/projects/25) (.NET, Angular)
 
 [Rezultate Vot](https://github.com/orgs/code4romania/projects/18) (.NET, React)
 
 [Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 cu Django, React)
-
-[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java cu Spring Boot, Angular)
 
 [Asset Declarations](https://github.com/orgs/code4romania/projects/10) (Python 3.6 cu Django)
 
