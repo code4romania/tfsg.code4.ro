@@ -23,13 +23,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% column class="is-half-tablet" %}}
 #### {{% highlight %}}The Covid-19 ecosystem{{% /highlight %}}
 
-[Ce trebuie să fac](https://github.com/orgs/code4romania/projects/26) (React)
-
-[Date la zi](https://github.com/code4romania/date-la-zi/projects/1) (React, .NET)
-
-[RoHelp](https://github.com/code4romania/diaspora-hub/projects/1) (Python 3.6 with Django)
-
-[Stăm acasă](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
+[Jurnal Medical](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
 
 {{% /column %}}
 
