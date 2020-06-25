@@ -23,6 +23,13 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% /column %}}
 
 {{% column class="is-half-tablet" %}}
+#### {{% highlight %}}The Covid-19 ecosystem{{% /highlight %}}
+
+[Jurnal Medical](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
+
+{{% /column %}}
+
+{{% column class="is-half-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
 [Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java cu Spring Boot, Angular)
