@@ -20,15 +20,7 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% /column %}}
 
 
-{{% column class="is-half-tablet" %}}
-#### {{% highlight %}}The Covid-19 ecosystem{{% /highlight %}}
-
-[Jurnal Medical](https://github.com/code4romania/stam-acasa/projects/1) (React, .NET)
-
-{{% /column %}}
-
-
-{{% column class="is-half-tablet" %}}
+{{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
 
 [Vot România](https://github.com/orgs/code4romania/projects/25) (.NET, Angular)
