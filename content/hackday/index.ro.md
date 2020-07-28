@@ -12,7 +12,7 @@ aliases:
 
 Alătură-te unei ediții de Hack Day derulată în întregime online, a Code for Romania!
 
-Participă și tu la schimbare! Este un moment în care calmul și determinarea de care a dat dovadă această comunitate până acum sunt încă și mai importante. Contribuie la proiectele din ecosistemul Covid-19, sau la unul dintre proiectele Tech for Social Good. 
+Participă și tu la schimbare! Este un moment în care calmul și determinarea de care a dat dovadă această comunitate până acum sunt încă și mai importante. Contribuie la unul dintre proiectele Tech for Social Good. 
 
 {{< events >}}
 

@@ -9,7 +9,7 @@ menu:
 
 Join an online-only edition of the Code for Romania Hack Day!
 
-Be part of the change! In these times, the calm and diligence that this community has proven itself capable of are even more important. You can contribute to projects in the Covid-19 ecosystem or those within the Tech for Social Good program.
+Be part of the change! In these times, the calm and diligence that this community has proven itself capable of are even more important. You can contribute to any of the projects within the Tech for Social Good program.
 
 {{< events >}}
 
