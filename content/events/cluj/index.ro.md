@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Catalysts
+location: Cloudflight
 weight: 2
 outputs:
   - Calendar
