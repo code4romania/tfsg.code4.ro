@@ -1,11 +1,11 @@
 Hello, superhero!
 
-Ne bucurăm că te-ai înscris. La acest Hack Day ne auzim online, începând cu ora 10 dimineața. 
+Ne bucurăm că te-ai înscris. La acest Hack Day ne auzim online, începând cu ora 6 seara. 
 
 Vei primi detalii suplimentare pe email dacă te-ai înscris să lucrezi online. Aici găsești informațiile de care ai nevoie pentru toate proiectele la care lucrăm în acest moment:
 <https://github.com/orgs/code4romania/projects>
 
-În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
+În după-amiaza de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
