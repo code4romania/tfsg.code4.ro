@@ -23,15 +23,17 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
 
-[Vot România](https://github.com/orgs/code4romania/projects/25) (.NET, Angular)
-
-[Rezultate Vot](https://github.com/orgs/code4romania/projects/18) (.NET, React)
-
-[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 with Django, React)
-
 [Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java with Spring Boot, Angular)
 
 [Asset Declarations](https://github.com/orgs/code4romania/projects/10) (Python 3.6 with Django)
+
+[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 with Django, React)
+
+[Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
+
+VotONG
+
+[Monitorizare Vot](https://github.com/orgs/code4romania/projects/31) (.NET, Angular, Kotlin, Swift)
 
 {{% /column %}}
 
