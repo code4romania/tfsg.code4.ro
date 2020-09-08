@@ -33,7 +33,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 
 [Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
 
-VotONG
+VotONG (Python 3.6)
 
 [Monitorizare Vot](https://github.com/orgs/code4romania/projects/31) (.NET, Angular, Kotlin, Swift)
 
