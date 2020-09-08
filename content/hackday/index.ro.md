@@ -25,15 +25,17 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
-[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java cu Spring Boot, Angular)
+[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java with Spring Boot, Angular)
 
-[Vot România](https://github.com/orgs/code4romania/projects/25) (.NET, Angular)
+[Asset Declarations](https://github.com/orgs/code4romania/projects/10) (Python 3.6 with Django)
 
-[Rezultate Vot](https://github.com/orgs/code4romania/projects/18) (.NET, React)
+[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 with Django, React)
 
-[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 cu Django, React)
+[Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
 
-[Asset Declarations](https://github.com/orgs/code4romania/projects/10) (Python 3.6 cu Django)
+VotONG
+
+[Monitorizare Vot](https://github.com/orgs/code4romania/projects/31) (.NET, Angular, Kotlin, Swift)
 
 {{% /column %}}
 
