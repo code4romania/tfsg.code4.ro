@@ -1,5 +1,5 @@
 language: generic
-dist: trusty
+dist: bionic
 env:
   HUGO_VERSION: "0.75.1"
 
