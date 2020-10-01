@@ -20,7 +20,7 @@ languages:
   en:
     languageName: English
     languageCode: en
-    copy: An independent, non-partisan, non-political, non-govermental organization.
+    copy: An independent, non-partisan, non-political, non-governmental organization.
     url: https://code4.ro/en/
     menu:
       navigation:
