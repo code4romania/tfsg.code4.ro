@@ -32,13 +32,15 @@ if (isProd) {
 			'layouts/**/*.html',
 			'src/js/**/*.js',
 		]),
-		whitelistPatterns: [
-			/^narrow$/,
-			/^is-6-tablet$/,
-			/^is-12-tablet$/,
-			/^h[1-6]$/,
-			/^fa-/,
-		],
+		safelist: {
+			standard: [
+				/^narrow$/,
+				/^is-6-tablet$/,
+				/^is-12-tablet$/,
+				/^h[1-6]$/,
+				/^fa-/,
+			]
+		},
 	}));
 }
 
