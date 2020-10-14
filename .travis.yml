@@ -1,7 +1,7 @@
 language: generic
 dist: bionic
 env:
-  HUGO_VERSION: "0.75.1"
+  HUGO_VERSION: "0.76.4"
 
 cache:
   pip: true
