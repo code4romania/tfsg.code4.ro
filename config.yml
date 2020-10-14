@@ -53,9 +53,10 @@ menu:
       url: https://www.linkedin.com/company/code4romania/
       weight: 4
 
-blackfriday:
-  hrefTargetBlank: true
-  fractions: false
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 sitemap:
   changefreq: weekly
