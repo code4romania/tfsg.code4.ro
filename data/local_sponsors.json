@@ -16,6 +16,11 @@
                 "id": "amazon",
                 "name": "Amazon",
                 "url": "https://www.amazon.com"
+            },
+            {
+                "id": "systematic",
+                "name": "Systematic",
+                "url": "https://systematic.com/"
             }
         ]
     },
