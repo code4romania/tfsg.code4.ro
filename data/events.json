@@ -1,8 +1,8 @@
 {
-	"edition": "22",
+	"edition": "23",
 	"tz": "Europe/Bucharest",
 	"offset": "+02:00",
-	"date": "2020-10-31",
+	"date": "2020-11-28",
 	"startTime": "18:00",
 	"endTime": "23:45"
 }
