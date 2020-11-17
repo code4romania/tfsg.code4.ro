@@ -51,6 +51,11 @@
                 "id": "unifiedpost",
                 "name": "UnifiedPost",
                 "url": "https://www.unifiedpost.com"
+            },
+            {
+                "id": "visma",
+                "name": "Visma",
+                "url": "https://www.visma.ro/"
             }
         ]
     },
