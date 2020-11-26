@@ -1,0 +1,27 @@
+[
+	{
+		"id": "data-portal",
+		"color": "#FFF",
+		"show": true
+    },
+    {
+		"id": "expert-consultation",
+		"color": "#FFF",
+		"show": true
+    },
+    {
+		"id": "seismic-risc",
+		"color": "#FFF",
+		"show": true
+    },
+    {
+		"id": "theater-hub",
+		"color": "#FFF",
+		"show": true
+    },
+    {
+		"id": "sunrise",
+		"color": "#FFF",
+		"show": true
+	}
+]
