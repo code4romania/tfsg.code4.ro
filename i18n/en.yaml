@@ -146,3 +146,8 @@
   translation: Find out how!
 - id: donate_20.url
   translation: https://code4.ro/en/get-involved/
+
+- id: donate_sms.title
+  translation: Make your contribution towards a better Romania - donate 4 euros monthly by sending an SMS that simple says
+- id: donate_sms.cta
+  translation: '<span class="has-text-black">PUTEM</span> to <span class="has-text-black">8864</span>'
