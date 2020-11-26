@@ -1,118 +1,149 @@
 {{ define "main" }}
-	<section class="hero is-link is-bold">
-		<div class="hero-body">
-			<div class="container">
-				<div class="columns is-vcentered row-reverse">
-					<div class="column is-6-desktop">
-						<img src="{{ "images/hero.png" | relURL }}" alt="">
-					</div>
-					<div class="column is-6-desktop">
-						<h1 class="title is-spaced">{{ .Title }}</h1>
-						<div class="content">{{ .Content }}</div>
-					</div>
+<section class="hero is-link is-bold">
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns is-vcentered row-reverse">
+				<div class="column is-6-desktop">
+					<img src="{{ "images/hero.png" | relURL }}" alt="">
+				</div>
+				<div class="column is-6-desktop">
+					<h1 class="title is-spaced">{{ .Title }}</h1>
+					<div class="content">{{ .Content }}</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="section">
-		<div class="container is-narrow">
-			<header class="has-text-centered">
-				<h1 class="title">{{ .Params.Subtitle }}</h1>
-			</header>
+<section class="section">
+	<div class="container is-narrow">
+		<header class="has-text-centered">
+			<h1 class="title">{{ .Params.Subtitle }}</h1>
+		</header>
 
-			<div class="section">
-				{{ range $i, $step := .Params.steps }}
-					<div class="media">
-						<div class="columns is-vcentered {{- cond (eq (mod $i 2) 1) " row-reverse" "" }}">
-							<div class="column is-3-tablet is-4-desktop">
-								<figure class="image is-square">
-									<img src="{{ (printf "images/steps/%d.svg" $i) | absURL }}" class="svg-fallback">
-								</figure>
-							</div>
-							<div class="column">
-								<div class="content">
-									{{ .text }}
-								</div>
-							</div>
+		<div class="section">
+			{{ range $i, $step := .Params.steps }}
+			<div class="media">
+				<div class="columns is-vcentered {{- cond (eq (mod $i 2) 1) " row-reverse" "" }}">
+					<div class="column is-3-tablet is-4-desktop">
+						<figure class="image is-square">
+							<img src="{{ (printf "images/steps/%d.svg" $i) | absURL }}" class="svg-fallback">
+						</figure>
+					</div>
+					<div class="column">
+						<div class="content">
+							{{ .text }}
 						</div>
 					</div>
-				{{ end }}
+				</div>
 			</div>
+			{{ end }}
 		</div>
-	</section>
+	</div>
+</section>
 
 {{- partial "donate_two_percent.html" . -}}
 
-	<section class="hero is-link is-bold">
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<h1 class="title is-size-2">Upgrading Romania <span class="is-size-4">(online, this time)</span> in</h1>
-				<div class="content">
-					{{ with $.Site.Data.events }}
-						<div id="countdown" class="countdown columns is-mobile" data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">
-							{{ $parts := (slice "days" "hours" "minutes" "seconds") }}
-
-							{{ range $parts }}
-								<span class="column is-3">
-									<span class="title {{ . }} has-text-link has-background-white">0</span>
-									<span class="heading">{{ i18n (printf "time.%s" .) }}</span>
-								</span>
-							{{ end }}
-						</div>
-					{{ end }}
-					<p class="subtitle">{{ i18n "until.hackday" }}</p>
-				</div>
-			</div>
-		</div>
-		<div class="hero-body">
-			<div class="container">
-				<div class="columns is-multiline is-centered">
-					{{ range (where .Site.RegularPages "Section" "events") }}
-						<div class="column is-12 is-6-desktop">
-							{{- .Render "card" -}}
-						</div>
-					{{ end }}
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="section has-background-light">
+<section class="hero is-link is-bold">
+	<div class="hero-body">
 		<div class="container has-text-centered">
-			<div class="columns is-multiline is-vcentered has-text-centered">
-				{{ range $.Site.Data.stats }}
-					<div class="column">
-						<div>
-							<p class="title is-size-1">{{ .value }}</p>
-							<p class="subtitle is-size-4">{{ i18n .label }}</p>
-						</div>
-					</div>
+			<h1 class="title is-size-2">Upgrading Romania <span class="is-size-4">(online, this time)</span> in</h1>
+			<div class="content">
+				{{ with $.Site.Data.events }}
+				<div id="countdown" class="countdown columns is-mobile"
+					data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">
+					{{ $parts := (slice "days" "hours" "minutes" "seconds") }}
+
+					{{ range $parts }}
+					<span class="column is-3">
+						<span class="title {{ . }} has-text-link has-background-white">0</span>
+						<span class="heading">{{ i18n (printf "time.%s" .) }}</span>
+					</span>
+					{{ end }}
+				</div>
+				{{ end }}
+				<p class="subtitle">{{ i18n "until.hackday" }}</p>
+			</div>
+		</div>
+	</div>
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns is-multiline is-centered">
+				{{ range (where .Site.RegularPages "Section" "events") }}
+				<div class="column is-12 is-6-desktop">
+					{{- .Render "card" -}}
+				</div>
 				{{ end }}
 			</div>
 		</div>
 	</div>
-
-	<section class="section">
-		<div class="container">
-			<header class="has-text-centered">
-				<h1 class="title">{{ i18n "projects.complete" }}</h1>
-			</header>
-
-			<div class="section app-list">
-				<div class="columns is-mobile is-multiline">
-					{{ partial "apps.html" . }}
-
-					<div class="column is-6-mobile">
-						<a href="https://code4.ro/ro/apps/" target="_blank" class="is-block is-inverse">
-							<div class="app-brand">
-								<div class="logo-container">
-									<span class="is-size-4 is-block">{{ i18n "projects.viewall" }}</span>
-								</div>
-							</div>
-						</a>
-					</div>
+</section>
+<div class="section has-background-light">
+	<div class="container has-text-centered">
+		<div class="columns is-multiline is-vcentered has-text-centered">
+			{{ range $.Site.Data.stats }}
+			<div class="column">
+				<div>
+					<p class="title is-size-1">{{ .value }}</p>
+					<p class="subtitle is-size-4">{{ i18n .label }}</p>
 				</div>
 			</div>
+			{{ end }}
 		</div>
-	</section>
+	</div>
+</div>
+
+{{- partial "donate_via_sms.html" . -}}
+
+<section class="section">
+	<div class="container">
+		<header class="has-text-centered">
+			<h1 class="title">{{ i18n "projects.complete" }}</h1>
+		</header>
+
+		<div class="section app-list">
+			<div class="columns is-mobile is-multiline">
+				{{ range $.Site.Data.finished_apps }}
+				{{ if .show }}
+				<div class="column is-one-fifth">
+					<img src="{{ (printf "images/city-labs/%s.svg" .Params.lab) | relURL }}" alt="{{ .Title }}"
+						class="svg-fallback">
+					<a href="{{ printf "https://code4.ro/ro/%s" .id }}" rel="noreferrer noopener">
+						<div class="app-brand">
+							<div class="logo-container" style="background-color:{{ .color }}">
+								<img src="{{ (printf "images/apps/%s.png" .id) | absURL }}" alt="{{ .id }}">
+							</div>
+						</div>
+					</a>
+				</div>
+				{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<header class="has-text-centered">
+			<h1 class="title">{{ i18n "projects.pending" }}</h1>
+		</header>
+
+		<div class="section app-list">
+			<div class="columns is-mobile is-multiline">
+				{{ range $.Site.Data.pending_apps }}
+				<div class="column is-one-fifth">
+					<a href="{{ printf "https://code4.ro/ro/%s" .id }}" rel="noreferrer noopener">
+						<div class="app-brand">
+							<div class="logo-container" style="background-color:{{ .color }}">
+								<img src="{{ (printf "images/apps/%s.png" .id) | absURL }}" alt="{{ .id }}">
+							</div>
+						</div>
+					</a>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
 {{ end }}

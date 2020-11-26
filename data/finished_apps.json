@@ -1,0 +1,82 @@
+[
+	{
+		"id": "anabi",
+		"color": "#FFF",
+		"show": false
+	},
+	{
+		"id": "vot-diaspora",
+		"color": "#352245",
+		"show": true
+	},
+	{
+		"id": "centru-civic",
+		"color": "#441D5C",
+		"show": true
+	},
+	{
+		"id": "monitorizare-vot",
+		"color": "#FFCC00",
+		"show": true
+	},
+	{
+		"id": "inlar",
+		"color": "#1C1218",
+		"show": true
+	},
+	{
+		"id": "incognito",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "redirectioneaza",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "rezultate-vot",
+		"color": "#FFCC00",
+		"show": true
+	},	
+	{
+		"id": "vot-romania",
+		"color": "#3E225B",
+		"show": true
+	},
+	{
+		"id": "stiri-oficiale",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "ce-trebuie-sa-fac",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "date-la-zi",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "sprijin-diaspora",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "helpro",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "jurnal-medical",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "vot-ong",
+		"color": "#FFF",
+		"show": true
+	}
+]
