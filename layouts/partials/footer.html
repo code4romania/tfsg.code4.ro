@@ -113,7 +113,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="columns">
-			<div class="column is-4 copy">
+			<div class="column is-2 copy">
 				<h2>A project by</h2>
 				<a href="{{ .Site.Params.url }}" class="brand">
 					<img src="{{ "images/code4romania-full-gray.svg" | absURL }}" class="logo svg-fallback"
@@ -128,17 +128,79 @@
 					{{ end }}
 				</div>
 			</div>
-			<div class="column is-4">
+			<div class="column is-2">
 				<div class="columns">
 					<ul class="column footer-links">
-						<li class="links-header">Links</li>
-						{{ range .Site.Menus.navigation }}
+						<li class="links-header">Linkuri utile</li>
 						<li class="links-item">
-							<a href="{{ .URL }}">
-								{{ .Name }}
+							<a href="https://code4.ro/ro/termeni-si-conditii">
+								Termeni și condiții
 							</a>
 						</li>
-						{{ end }}
+						<li class="links-item">
+							<a href="https://code4.ro/ro/politica-de-cookies">
+								Politica de cookies
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://code4.ro/ro/codul-de-conduita">
+								Codul de conduită
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="mailto:contact@code4.ro">
+								Contactează-ne
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column is-2">
+				<div class="columns">
+					<ul class="column footer-links">
+						<li class="links-header">Susține-ne</li>
+						<li class="links-item">
+							<a href="https://code4.ro/ro/doneaza">
+								Donează
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://code4.ro/ro">
+								Abonează-te
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column is-2">
+				<div class="columns">
+					<ul class="column footer-links">
+						<li class="links-header">Urmărește-ne</li>
+						<li class="links-item">
+							<a href="https://www.facebook.com/code4romania/" rel="noreferrer noopener">
+								Facebook
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGCeFczJvdfrgAAAXYGPuWQRd0eHy7XhVw56tvdpl4hs6o6kVQ2PslQWAOTPUbGt1EGPT0flHCXhlDddQy1IgiugL_8A6P83FeAG2Ett437esFBRW2MqwTfNfaYjbP_56vk0P8=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcode4romania%2F" rel="noreferrer noopener">
+								LinkedIn
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://www.instagram.com/code4romania/" rel="noreferrer noopener">
+								Instagram
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://twitter.com/Code4Romania" rel="noreferrer noopener">
+								Twitter
+							</a>
+						</li>
+						<li class="links-item">
+							<a href="https://github.com/code4romania/" rel="noreferrer noopener">
+								GitHub
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
