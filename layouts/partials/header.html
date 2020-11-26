@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="navbar-brand">
 			<a class="navbar-item brand is-flex" href="{{ "/" | absLangURL }}">
-				<img src="{{ "images/logo.svg" | relURL }}" class="brand-logo" alt="{{ .Site.Title }}">
+				<img src="{{ "images/code4romania.svg" | relURL }}" class="brand-logo" alt="{{ .Site.Title }}">
 			</a>
 			<a role="button" class="navbar-burger" data-target="header-menu" aria-label="menu" aria-expanded="false">
 				<span aria-hidden="true"></span>
@@ -12,19 +12,116 @@
 		</div>
 		<div id="header-menu" class="navbar-menu">
 			<div class="navbar-end has-text-centered-touch">
-				{{ range .Site.Menus.navigation }}
+				<!-- {{ range .Site.Menus.navigation }}
 					<a class="navbar-item" href="{{ .URL }}">
 						{{ .Name }}
 					</a>
-				{{ end }}
+				{{ end }} -->
 
-				{{ range .Translations }}
-					{{ if ne $.Site.Language .Language }}
-						<a class="navbar-item is-uppercase has-text-primary" href="{{ .Permalink }}" hreflang="{{ .Language }}">
-							{{ .Language }}
+				<a class="navbar-item" href="https://code4.ro/ro/">
+					Home
+				</a>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link has-text-black" href="https://code4.ro/ro/">
+						Despre noi
+					</a>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="https://code4.ro/ro/echipa">
+							Echipa
 						</a>
-					{{ end }}
+						<a class="navbar-item" href="https://code4.ro/ro/comunitate">
+							Comunitatea
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/povestea-noastra">
+							Povestea noastră
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/sustinatori">
+							Susținători
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/transparenta">
+							Transparență
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/cum-functionam">
+							Cum funcționăm
+						</a>
+					</div>
+				</div>
+
+				<a class="navbar-item" href="https://code4.ro/ro/putem">
+					Planul nostru
+				</a>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link has-text-black" href="https://code4.ro/ro/">
+						Programele noastre
+					</a>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="https://code4.ro/ro/civic-labs">
+							Civic Labs
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/tech-for-social-good">
+							Tech for Social Good
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/critical-civic-infrastructure">
+							Critical Civic Tech Infrastructure
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/civic-tech-911">
+							Civic Tech 911
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/update-romania">
+							Update Romania
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/code-for-romania-task-force">
+							Task Force
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/prezenta-globala">
+							Alte intervenții
+						</a>
+					</div>
+				</div>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link has-text-black" href="https://code4.ro/ro/">
+						Domenii
+					</a>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="https://code4.ro/ro/education-for-romania">
+							Educație
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/health-for-romania">
+							Sănătate
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/environment-for-romania">
+							Mediu
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/care-for-romania">
+							Grupuri vulnerabile
+						</a>
+						<a class="navbar-item" href="https://code4.ro/ro/participation-for-romania">
+							Participare
+						</a>
+					</div>
+				</div>
+
+				<a class="navbar-item" href="https://code4.ro/ro/blog">
+					Blog
+				</a>
+
+				<a class="navbar-item" href="https://code4.ro/ro/doneaza">
+					<button class="button is-success">Donează</button>
+				</a>
+
+				<!-- {{ range .Translations }}
+				{{ if ne $.Site.Language .Language }}
+				<a class="navbar-item is-uppercase has-text-primary" href="{{ .Permalink }}" hreflang="{{ .Language }}">
+					{{ .Language }}
+				</a>
 				{{ end }}
+				{{ end }} -->
 			</div>
 		</div>
 	</div>
