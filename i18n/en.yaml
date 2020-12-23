@@ -140,7 +140,7 @@
 - id: option.tech.kotlin
   translation: Kotlin
 
-- id:   
+- id: donate_20.title
   translation: Redirect 20% of your income tax to Come for Romania!
 - id: donate_20.call_to_action
   translation: Find out how!
