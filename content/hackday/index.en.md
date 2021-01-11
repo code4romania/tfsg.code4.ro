@@ -29,8 +29,6 @@ Be part of the change! In these times, the calm and diligence that this communit
 
 [Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
 
-[VotONG](https://github.com/code4romania/votong) (Python 3.6)
-
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
