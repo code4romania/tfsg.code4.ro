@@ -3,11 +3,6 @@
         "id": "bucuresti",
         "sponsors": [
             {
-                "id": "cegeka",
-                "name": "Cegeka",
-                "url": "https://www.cegeka.com/en/ro/"
-            },
-            {
                 "id": "sustainalytics",
                 "name": "Sustainalytics",
                 "url": "https://www.sustainalytics.com"
@@ -27,11 +22,6 @@
     "Iași": {
         "id": "iasi",
         "sponsors": [
-            {
-                "id": "cegeka",
-                "name": "Cegeka",
-                "url": "https://www.cegeka.com/en/ro/"
-            }
         ]
     },
     "Timișoara": {
