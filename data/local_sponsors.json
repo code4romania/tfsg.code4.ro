@@ -66,16 +66,6 @@
                 "id": "evozon",
                 "name": "Evozon",
                 "url": "https://www.evozon.com"
-            },
-            {
-                "id": "bosch",
-                "name": "Bosch",
-                "url": "https://www.bosch.ro"
-            },
-            {
-                "id": "macadamian",
-                "name": "Macadamian",
-                "url": "https://www.macadamian.com"
             }
         ]
     }
