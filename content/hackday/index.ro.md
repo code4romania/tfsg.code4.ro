@@ -25,11 +25,9 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
-[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java with Spring Boot, Angular)
+**Date Poluare** - un proiect început de la zero și finalizat de ziua Code for Romania. 
 
-[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 with Django, React)
-
-[Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
+Politicile publice care au în vedere reducerea poluării se bazează pe datele din teren, care uneori sunt incomplete, alteori nu sunt de încredere și în cele mai multe cazuri sunt greu de găsit și pus în context. Date Poluare va fi platforma care aduce într-un singur loc date și vizualizări despre poluarea din România, astfel încât acestea să fie ușor accesibile oricui și să prezinte o imagine completă și corectă a problemei, pentru a putea mai apoi, pe baze solide, construi soluția potrivită.
 
 {{% /column %}}
 
