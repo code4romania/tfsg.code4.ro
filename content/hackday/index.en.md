@@ -23,11 +23,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
 
-[Expert Consultation](https://github.com/orgs/code4romania/projects/15) (Java with Spring Boot, Angular)
+**Pollution Data** - a project that we start from scratch and finish during Code for Romania's birthday celebration. 
 
-[Seismic Risk](https://github.com/orgs/code4romania/projects/16) (Python 3.6 with Django, React)
-
-[Data Portal](https://github.com/code4romania/ckanext-dataportaltheme/) (CKAN, a Python 2.7 framework)
+Any public policy that aims to reduce pollution is based on real-world data, which is, often times, incomplete or untrustworthy. Real-world data is difficult to come across and even harder to contextualize. Pollution Data is a platform that aggregates raw data and visualisations, all aimed to explain pollution in Romania, so that this phenomenon can be made accessible. This platform will show the clear shape of the problem and will create a solid base for constructing the adequate solution.
 
 {{% /column %}}
 

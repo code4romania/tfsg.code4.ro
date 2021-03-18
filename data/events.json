@@ -1,8 +1,8 @@
 {
-	"edition": "26",
+	"edition": "27",
 	"tz": "Europe/Bucharest",
 	"offset": "+02:00",
-	"date": "2021-02-27",
+	"date": "2021-04-02",
 	"startTime": "10:00",
 	"endTime": "23:45"
 }
