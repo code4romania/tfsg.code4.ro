@@ -56,6 +56,11 @@
                 "id": "evozon",
                 "name": "Evozon",
                 "url": "https://www.evozon.com"
+            },
+            {
+                "id": "Wolfpack",
+                "name": "Wolfpack Digital",
+                "url": "https://www.wolfpack-digital.com"
             }
         ]
     }
