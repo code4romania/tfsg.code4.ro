@@ -23,9 +23,9 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
 
-**Pollution Data** - a project that we start from scratch and finish during Code for Romania's birthday celebration. 
+**De Urgență** - a project that we start from scratch and finish during Code for Romania's birthday celebration. 
 
-Any public policy that aims to reduce pollution is based on real-world data, which is, often times, incomplete or untrustworthy. Real-world data is difficult to come across and even harder to contextualize. Pollution Data is a platform that aggregates raw data and visualisations, all aimed to explain pollution in Romania, so that this phenomenon can be made accessible. This platform will show the clear shape of the problem and will create a solid base for constructing the adequate solution.
+In the case of an earthquake, most families or groups of friends live in vulnerable cities. They don't have an emergency plan or at least a survival backpack that would allow them to have a minimum of resources in the case of a disaster. Stay Together is a mobile app that allows users to build themselves an emergency plan together with those close to them, to keep track of the products in the backpack and their expiration dates, offers through a system of notifications and points the possibility to repeat the most useful information in case of an earthquake or another calamity and offers the official list of meeting points.
 
 {{% /column %}}
 

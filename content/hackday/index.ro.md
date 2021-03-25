@@ -25,9 +25,9 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
-**Date Poluare** - un proiect început de la zero și finalizat de ziua Code for Romania. 
+**De Urgență** - un proiect început de la zero și finalizat de ziua Code for Romania. 
 
-Politicile publice care au în vedere reducerea poluării se bazează pe datele din teren, care uneori sunt incomplete, alteori nu sunt de încredere și în cele mai multe cazuri sunt greu de găsit și pus în context. Date Poluare va fi platforma care aduce într-un singur loc date și vizualizări despre poluarea din România, astfel încât acestea să fie ușor accesibile oricui și să prezinte o imagine completă și corectă a problemei, pentru a putea mai apoi, pe baze solide, construi soluția potrivită.
+În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni locuiesc în orașele vulnerabile. Ei nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. DeUrgență este o aplicație mobilă care permite utilizatorilor să își construiască un plan de urgență împreună cu cei apropiați, să țină evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și pune la dispoziție lista oficială a punctelor de întâlnire.
 
 {{% /column %}}
 
