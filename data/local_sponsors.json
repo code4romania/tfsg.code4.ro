@@ -22,16 +22,16 @@
     "Iași": {
         "id": "iasi",
         "sponsors": [
+            {
+                "id": "mambu",
+                "name": "Mambu",
+                "url": "https://www.mambu.com"
+            }
         ]
     },
     "Timișoara": {
         "id": "timisoara",
         "sponsors": [
-            {
-                "id": "sustainalytics",
-                "name": "Sustainalytics",
-                "url": "https://www.sustainalytics.com"
-            },
             {
                 "id": "continental",
                 "name": "Continental",
