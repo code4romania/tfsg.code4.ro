@@ -30,7 +30,7 @@ In the case of an earthquake, most families or groups of friends live in vulnera
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
-Find out more about [all Code for Romania projects](https://bit.ly/2SREoGf).
+Find out more about [all Code for Romania projects](https://code4.ro/ro/putem).
 
 If you have any questions, write to us at [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}

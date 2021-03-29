@@ -32,7 +32,7 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
-Citește despre [toate proiectele Code for Romania](https://bit.ly/2SREoGf).
+Citește despre [toate proiectele Code for Romania](https://code4.ro/ro/putem).
 
 Dacă ai întrebări, scrie-ne pe [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}
