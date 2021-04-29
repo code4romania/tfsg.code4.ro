@@ -61,6 +61,11 @@
                 "id": "wolfpack",
                 "name": "Wolfpack Digital",
                 "url": "https://www.wolfpack-digital.com"
+            },
+            {
+                "id": "garmin",
+                "name": "Garmin",
+                "url": "https://www.garmin.com/ro-RO/"
             }
         ]
     }
