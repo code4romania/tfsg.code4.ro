@@ -23,9 +23,10 @@ Be part of the change! In these times, the calm and diligence that this communit
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
 
-**De Urgență** - a project that we start from scratch and finish during Code for Romania's birthday celebration. 
-
-In the case of an earthquake, most families or groups of friends live in vulnerable cities. They don't have an emergency plan or at least a survival backpack that would allow them to have a minimum of resources in the case of a disaster. Stay Together is a mobile app that allows users to build themselves an emergency plan together with those close to them, to keep track of the products in the backpack and their expiration dates, offers through a system of notifications and points the possibility to repeat the most useful information in case of an earthquake or another calamity and offers the official list of meeting points.
+**De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
+**Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
+**Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
+**Expert Consultation** | Java (Spring Boot), Angular | [Backend](https://github.com/code4romania/expert-consultation-api) [Frontend](https://github.com/code4romania/expert-consultation-client)
 
 {{% /column %}}
 

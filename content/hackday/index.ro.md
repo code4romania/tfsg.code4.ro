@@ -25,9 +25,12 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
-**De Urgență** - un proiect început de la zero și finalizat de ziua Code for Romania. 
+**De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
+**Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
+**Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
+**Expert Consultation** | Java (Spring Boot), Angular | [Backend](https://github.com/code4romania/expert-consultation-api) [Frontend](https://github.com/code4romania/expert-consultation-client)
 
-În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni locuiesc în orașele vulnerabile. Ei nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. DeUrgență este o aplicație mobilă care permite utilizatorilor să își construiască un plan de urgență împreună cu cei apropiați, să țină evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și pune la dispoziție lista oficială a punctelor de întâlnire.
+
 
 {{% /column %}}
 
