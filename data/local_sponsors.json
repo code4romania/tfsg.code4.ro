@@ -26,6 +26,11 @@
                 "id": "mambu",
                 "name": "Mambu",
                 "url": "https://www.mambu.com"
+            },
+            {
+                "id": "visma",
+                "name": "Visma",
+                "url": "https://www.visma.ro/"
             }
         ]
     },
