@@ -1,7 +1,7 @@
 ---
 lab: timisoara
 title: Timișoara
-location: DevPlant
+location: 3Pillar
 weight: 4
 outputs:
   - Calendar

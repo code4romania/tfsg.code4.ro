@@ -1,7 +1,7 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: Cloudflight
+location: Wolfpack
 weight: 2
 outputs:
   - Calendar
