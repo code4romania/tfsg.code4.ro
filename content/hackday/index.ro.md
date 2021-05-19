@@ -26,8 +26,11 @@ Participă și tu la schimbare! Este un moment în care calmul și determinarea 
 #### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
 
 **De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
+
 **Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
+
 **Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
+
 **Expert Consultation** | Java (Spring Boot), Angular | [Backend](https://github.com/code4romania/expert-consultation-api) [Frontend](https://github.com/code4romania/expert-consultation-client)
 
 
