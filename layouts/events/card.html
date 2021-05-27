@@ -33,6 +33,9 @@
 				{{- if eq  $.File.ContentBaseName "online" -}}
 					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
 					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
+				{{- else if eq  $.File.ContentBaseName "iasi" -}}
+					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
+					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
 				{{- else -}}
 					<span class="button is-success is-fullwidth" disabled>{{ i18n "event.rsvp" }}</span>
 				{{- end -}}
