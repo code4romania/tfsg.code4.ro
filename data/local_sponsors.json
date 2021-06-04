@@ -16,6 +16,11 @@
                 "id": "systematic",
                 "name": "Systematic",
                 "url": "https://systematic.com/"
+            },
+            {
+                "id": "fintechos",
+                "name": "FintechOS",
+                "url": "https://fintechos.com/"
             }
         ]
     },
