@@ -1,6 +1,6 @@
 ---
 lab: online
-title: Join the live event
+title: Join the online event
 location: Slack
 date: 26.06.2021
 weight: 99
