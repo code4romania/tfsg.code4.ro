@@ -2,7 +2,7 @@
 lab: iasi
 title: Iași
 location: FabLab
-date:
+startdate:
 weight: 3
 outputs:
   - Calendar

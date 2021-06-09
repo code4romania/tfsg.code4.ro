@@ -18,8 +18,8 @@
 							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
 								<div class="location">{{ .Params.location }}</div>
 								<div class="time">
-									{{ if .Params.date }}
-										{{ .Params.date }} | 
+									{{ if .Params.startdate }}
+										{{ .Params.startdate }} | 
 									{{ end }}
 
 									{{ $.Site.Data.events.startTime }}
