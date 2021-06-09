@@ -2,7 +2,7 @@
 lab: bucuresti
 title: București
 location: Nod Makerspace
-startdate:
+date:
 weight: 1
 outputs:
   - Calendar

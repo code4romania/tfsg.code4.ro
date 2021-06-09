@@ -2,7 +2,7 @@
 lab: sibiu
 title: Sibiu
 location: 
-startdate:
+date:
 weight: 5
 outputs:
   - Calendar
