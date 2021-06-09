@@ -34,18 +34,15 @@
 				</div>
 			</div>
 			<div class="column is-narrow has-text-right content">
-				{{- if eq  $.File.ContentBaseName "online" -}}
+				{{- if .Params.enabled -}}
 					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
-					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
-				{{- else if eq  $.File.ContentBaseName "cluj" -}}
-					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
-					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
+						{{- with .OutputFormats.Get "Calendar" -}}
+							<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
+						{{- end -}}
+					</a>
 				{{- else -}}
 					<span class="button is-success is-fullwidth" disabled>{{ i18n "event.rsvp" }}</span>
 				{{- end -}}
-				{{ with .OutputFormats.Get "Calendar" }}
-				
-				{{ end }}
 			</div>
 		</div>
 	</div>
