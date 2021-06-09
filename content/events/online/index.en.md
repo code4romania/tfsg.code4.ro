@@ -2,7 +2,7 @@
 lab: online
 title: Join the online event
 location: Slack
-date: 26.06.2021
+date: 2021-06-26
 weight: 99
 outputs:
   - Calendar

@@ -18,7 +18,7 @@
 							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
 								<div class="location">{{ .Params.location }}</div>
 								<div class="time">
-									{{ if isset .Params "date" }}
+									{{ if .Params.date }}
 										{{ .Params.date }} | 
 									{{ end }}
 
