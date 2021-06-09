@@ -2,8 +2,9 @@
 lab: iasi
 title: Iași
 location:
-date:
+startdate:
+enabled: false
 weight: 3
 outputs:
-  - Calendar
+  # - Calendar
 ---

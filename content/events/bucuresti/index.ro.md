@@ -2,8 +2,9 @@
 lab: bucuresti
 title: București
 location:
-date:
+startdate:
+enabled: false
 weight: 1
 outputs:
-  - Calendar
+  # - Calendar
 ---
