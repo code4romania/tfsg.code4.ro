@@ -1,7 +1,7 @@
 ---
 lab: bucuresti
 title: București
-location: Nod Makerspace
+location:
 date:
 weight: 1
 outputs:
