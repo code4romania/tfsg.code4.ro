@@ -18,7 +18,11 @@
 							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
 								<div class="location">{{ .Params.location }}</div>
 								<div class="time">
-									{{ .Date.Format "2 January 2006 15:04" }}
+									{{ with .Params.startdate }}
+										{{ dateFormat "2 January 2006 | 15:04" . }}
+									{{ else }}
+										{{/*  {{ dateFormat "2 January 2006 | 15:04" (printf "%sT%s" $.Site.Data.events.date $.Site.Data.events.startTime) }}  */}}
+									{{ end }}
 
 									{{ if and (isset .Params "offset") (ne .Params.offset $.Site.Data.events.offset) }}
 										<small class="has-text-grey">(UTC{{ .Params.offset }})</small>

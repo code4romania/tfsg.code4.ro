@@ -2,7 +2,7 @@
 lab: timisoara
 title: Timișoara
 location: 3Pillar
-date:
+startdate:
 weight: 4
 outputs:
   - Calendar

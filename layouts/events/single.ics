@@ -4,8 +4,8 @@
 {{ end -}}
 
 {{ $eventDate := $.Site.Data.events.date -}}
-{{ $startTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.startTime) -}}
-{{ $endTime := (printf "%sT%s:00Z" $eventDate $.Site.Data.events.endTime) -}}
+{{ $startTime := (printf "%sT%sZ" $eventDate $.Site.Data.events.startTime) -}}
+{{ $endTime := (printf "%sT%sZ" $eventDate $.Site.Data.events.endTime) -}}
 
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
