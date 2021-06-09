@@ -10,9 +10,9 @@ aliases:
   - /hackday
 ---
 
-Alătură-te unei ediții de Hack Day derulată în întregime online, a Code for Romania!
+Dacă poți oferi din timpul, cunoștințele și talentul tău pentru a construi alături de noi soluții digitale pentru România, vino să ne cunoști la o nouă ediție Hack Day derulată online dar și live, în câteva dintre orașele în care organizăm întâlniri în persoană luna aceasta.
 
-Participă și tu la schimbare! Este un moment în care calmul și determinarea de care a dat dovadă această comunitate până acum sunt încă și mai importante. Contribuie la unul dintre proiectele Tech for Social Good. 
+Participă și tu la schimbare! Este un moment în care comunitatea noastră a demonstrat că poate ajuta zeci de milioane de români. Împreună cu tine **putem** construi și mai mult. Contribuie la unul dintre proiectele Tech for Social Good.
 
 {{< events >}}
 

@@ -1,11 +1,11 @@
 Hello, superhero!
 
-Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge, începând cu ora 10 dimineața, online. 
+Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge, pe 26 iunie începând cu ora 10 dimineața online, dar și în persoană în câteva orașe unde organizăm ediții live:
+- 18 iunie, ora 17.00, Cluj Napoca | @Wolfpack
 
-În dimineața de sâmbătă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
+În ziua respectivă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
 We are the ones we've been waiting for!
-
 Ne vedem la HackDay!

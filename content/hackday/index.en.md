@@ -7,9 +7,9 @@ menu:
     weight: 10
 ---
 
-Join an online-only edition of the Code for Romania Hack Day!
+If you can contribute your time, knowledge and talet to building digital sollutions for Romania, alongside us, come meet us during a new Hack Day edition, which we're hosting both in person as well as online, in a few of the cities we gather in this month. 
 
-Be part of the change! In these times, the calm and diligence that this community has proven itself capable of are even more important. You can contribute to any of the projects within the Tech for Social Good program.
+Take part in the change! At this time, our community has already proven that it can help tens of millions of Romanian citizens. Alongside you, **we can** build even more. Make your own contribution to one of the Tech for Social Good projects. 
 
 {{< events >}}
 
