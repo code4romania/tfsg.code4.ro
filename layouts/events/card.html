@@ -18,6 +18,10 @@
 							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
 								<div class="location">{{ .Params.location }}</div>
 								<div class="time">
+									{{ if isset .Params "date" }}
+										{{ .Params.date }} | 
+									{{ end }}
+
 									{{ $.Site.Data.events.startTime }}
 
 									{{ if and (isset .Params "offset") (ne .Params.offset $.Site.Data.events.offset) }}
@@ -33,7 +37,7 @@
 				{{- if eq  $.File.ContentBaseName "online" -}}
 					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
 					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
-				{{- else if eq  $.File.ContentBaseName "iasi" -}}
+				{{- else if eq  $.File.ContentBaseName "cluj" -}}
 					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
 					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
 				{{- else -}}
