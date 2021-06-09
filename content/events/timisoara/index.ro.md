@@ -2,8 +2,9 @@
 lab: timisoara
 title: Timișoara
 location: 3Pillar
-date:
+startdate:
+enabled: false
 weight: 4
 outputs:
-  - Calendar
+  # - Calendar
 ---

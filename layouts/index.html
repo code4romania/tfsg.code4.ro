@@ -51,7 +51,7 @@
 			<div class="content">
 				{{ with $.Site.Data.events }}
 				<div id="countdown" class="countdown columns is-mobile"
-					data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s:00 %s" .date .startTime .offset) }}">
+					data-dateEnd="{{ dateFormat "2006-01-02T15:04:05Z07:00" (printf "%s %s %s" .date .startTime .offset) }}">
 					{{ $parts := (slice "days" "hours" "minutes" "seconds") }}
 
 					{{ range $parts }}

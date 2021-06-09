@@ -18,11 +18,11 @@
 							<div class="subtitle is-size-6-touch is-size-5-desktop has-text-black">
 								<div class="location">{{ .Params.location }}</div>
 								<div class="time">
-									{{ if .Params.startdate }}
-										{{ .Params.startdate }} | 
+									{{ with .Params.startdate }}
+										{{ dateFormat "2 January 2006 | 15:04" . }}
+									{{ else }}
+										{{/*  {{ dateFormat "2 January 2006 | 15:04" (printf "%sT%s" $.Site.Data.events.date $.Site.Data.events.startTime) }}  */}}
 									{{ end }}
-
-									{{ $.Site.Data.events.startTime }}
 
 									{{ if and (isset .Params "offset") (ne .Params.offset $.Site.Data.events.offset) }}
 										<small class="has-text-grey">(UTC{{ .Params.offset }})</small>
@@ -34,18 +34,15 @@
 				</div>
 			</div>
 			<div class="column is-narrow has-text-right content">
-				{{- if eq  $.File.ContentBaseName "online" -}}
+				{{- if .Params.enabled -}}
 					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
-					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
-				{{- else if eq  $.File.ContentBaseName "cluj" -}}
-					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
-					<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
+						{{- with .OutputFormats.Get "Calendar" -}}
+							<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
+						{{- end -}}
+					</a>
 				{{- else -}}
 					<span class="button is-success is-fullwidth" disabled>{{ i18n "event.rsvp" }}</span>
 				{{- end -}}
-				{{ with .OutputFormats.Get "Calendar" }}
-				
-				{{ end }}
 			</div>
 		</div>
 	</div>
