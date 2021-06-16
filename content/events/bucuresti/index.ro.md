@@ -1,9 +1,9 @@
 ---
 lab: bucuresti
 title: București
-location:
+location: Zeppelin 
 startdate:
-enabled: false
+enabled: true
 weight: 1
 outputs:
   # - Calendar
