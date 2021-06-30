@@ -1,11 +1,6 @@
 Hello, superhero!
 
-Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge, pe 26 iunie începând cu ora 10 dimineața online, dar și în persoană în câteva orașe unde organizăm ediții live:
-- 18 iunie, ora 17:00, Cluj Napoca | @Wolfpack
-- 23 iunie, ora 17:00, București, | @Zeppelin
-- 26 iunie, ora 10:00, Sibiu | @Biblioteca Județeană ASTRA Sibiu
-- 27 iunie, ora 17:00, Iași | @BeerZone
-
+Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge, pe 31 iulie începând cu ora 10 dimineața online.
 
 În ziua respectivă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 

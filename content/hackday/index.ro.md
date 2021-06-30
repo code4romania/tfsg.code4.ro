@@ -38,6 +38,8 @@ Pentru a avea acces la acest eveniment, vă rugăm să aveți aceste documente f
 
 **De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
 
+**Teacher Workout** | .NET, React, Kotlin, Swift | [Backend](https://github.com/code4romania/teacher-workout-backend/) [Frontend](https://github.com/code4romania/teacher-workout-client/) [Android](https://github.com/code4romania/teacher-workout-android/) [iOS](https://github.com/code4romania/teacher-workout-ios)
+
 **Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
 
 **Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
