@@ -1,7 +1,7 @@
 ---
 lab: sibiu
 title: Sibiu
-location: ASTRA Sibiu County Library
+location: 
 startdate: 2021-07-31T10:00:00
 enabled: false
 weight: 5

@@ -1,7 +1,7 @@
 ---
 lab: bucuresti
 title: București
-location: Zeppelin 
+location:  
 startdate: 
 enabled: false
 weight: 1

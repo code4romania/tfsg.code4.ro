@@ -1,8 +1,17 @@
 Hello, superhero!
 
-Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge, pe 31 iulie începând cu ora 10 dimineața online.
+Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge:
+- pe 27 iulie, începând cu ora 5pm, la Evozon, în Cluj-Napoca;
+- pe 31 iulie, începând cu ora 10am, online.
 
 În ziua respectivă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
+
+Vom povesti despre și vom lucra la următoarele proiecte:
+- De Urgență (C#, Kotlin, Swift)
+- Teacher Workout (C#, React, Kotlin, Swift)
+- Seismic Risc (Python, React)
+- Expert Consultation (Java, Angular)
+- Data Portal (Python)
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
 
