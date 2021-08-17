@@ -65,7 +65,7 @@
 - id: label.where
   translation: Where do you plan to attend?
 - id: label.tech
-  translation: Select the technologies you would prefer to work with
+  translation: Select the technologies you would prefer to work with (if you don't have programming experience, choose "Other" and tell us about how you'd like us to collaborate)
 - id: label.tech.other
   translation: Other technologies
 - id: label.submit

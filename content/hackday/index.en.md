@@ -49,7 +49,7 @@ Documents (printed or electronic) will be checked at entry.
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Find out more about [all Code for Romania projects](https://code4.ro/ro/putem).
 
-If you have any questions, write to us at [contact@code4.ro](mailto:contact@code4.ro).
+Would you like to meet us, or work alongside us? Fill in the form below and let's meet at one of our events! If you have any questions, write to us at [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}
 
 {{% /columns %}}

@@ -51,7 +51,7 @@ Pentru a avea acces la acest eveniment, vă rugăm să aveți aceste documente f
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Citește despre [toate proiectele Code for Romania](https://code4.ro/ro/putem).
 
-Dacă ai întrebări, scrie-ne pe [contact@code4.ro](mailto:contact@code4.ro).
+Vrei să ne cunoști, sau să lucrăm împreună? Completează formularul de mai jos și hai alături de noi la unul dintre evenimente! Dacă ai întrebări, scrie-ne pe [contact@code4.ro](mailto:contact@code4.ro).
 {{% /column %}}
 
 {{% /columns %}}
