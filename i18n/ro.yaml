@@ -65,7 +65,7 @@
 - id: label.where
   translation: Unde vrei să participi?
 - id: label.tech
-  translation: Selectează tehnologiile în care vrei să lucrezi
+  translation: Selectează tehnologiile în care vrei să lucrezi (dacă nu ai experiență de programare, selectează "Altele" și scrie-ne cum ți-ar plăcea să colaborăm)
 - id: label.tech.other
   translation: Alte tehnologii
 - id: label.submit
