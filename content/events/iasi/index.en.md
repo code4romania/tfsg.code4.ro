@@ -1,9 +1,9 @@
 ---
 lab: iasi
 title: Iași
-location: Online
-startdate: 2021-08-28T10:00:00
-enabled: true
+location: 
+startdate: 
+enabled: false
 weight: 3
 outputs:
   # - Calendar

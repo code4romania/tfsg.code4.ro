@@ -1,10 +1,7 @@
 Hello, superhero!
 
 Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge:
-- pe 18 august, începând cu ora 5pm, în București la EFdN Sustainable city;
-- pe 18 august, începând cu ora 5pm, în Cluj, la Jaxx;
-- pe 28 august, începând cu ora 10am, în Sibiu la biblioteca Astra;
-- pe 28 august, începând cu ora 10am, online.
+- pe 25 septembrie, începând cu ora 10am, online.
 
 În ziua respectivă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 

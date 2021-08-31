@@ -1,8 +1,8 @@
 {
-	"edition": "32",
+	"edition": "33",
 	"tz": "Europe/Bucharest",
 	"offset": "+02:00",
-	"date": "2021-08-28",
+	"date": "2021-09-25",
 	"startTime": "10:00:00",
 	"endTime": "23:45:00"
 }
