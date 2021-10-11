@@ -35,7 +35,7 @@
 </aside>
 
 <!-- Local sponsors -->
-{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca") }}
+{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca" "Sibiu") }}
 {{ range $city := $cities }}
 {{ range $elem_key, $elem_val := $.Site.Data.local_sponsors }}
 {{ if eq $elem_key $city }}
@@ -84,7 +84,7 @@
 </aside>
 
 <!-- Local partners -->
-{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca") }}
+{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca" "Sibiu") }}
 {{ range $city := $cities }}
 {{ range $elem_key, $elem_val := $.Site.Data.local_partners }}
 {{ if eq $elem_key $city }}

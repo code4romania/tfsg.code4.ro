@@ -5,7 +5,7 @@ function partners() {
 
         var city_filter = params.get('where');
 
-        var cities = ["bucuresti", "iasi", "cluj", "timisoara"];
+        var cities = ["bucuresti", "iasi", "cluj", "timisoara", "sibiu"];
 
         if (city_filter && city_filter != "online") {
             // Hide the row containing all partners on city pages
