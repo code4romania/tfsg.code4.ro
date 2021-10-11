@@ -78,3 +78,8 @@ disableKinds:
 build:
   noJSConfigInAssets: true
   writeStats: true
+
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: false
