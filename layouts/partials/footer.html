@@ -7,7 +7,7 @@
 			<div class="column is-three-quarters-touch is-2-desktop">
 				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
 					<div class="logo-container">
-						<img src="{{ (printf "images/poweredby/%s.png" .id) | absURL }}" alt="{{ .name }}">
+						<img src="{{ (printf "images/poweredby/%s.png" .id) | relURL }}" alt="{{ .name }}">
 					</div>
 				</a>
 			</div>
@@ -25,7 +25,7 @@
 			<div class="column is-three-quarters-touch is-2-desktop">
 				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
 					<div class="logo-container">
-						<img src="{{ (printf "images/sponsors/%s.png" .id) | absURL }}" alt="{{ .name }}">
+						<img src="{{ (printf "images/sponsors/%s.png" .id) | relURL }}" alt="{{ .name }}">
 					</div>
 				</a>
 			</div>
@@ -43,20 +43,20 @@
 <aside class="partners section has-background-light is-paddingless" id="{{ printf "sponsors_%s" $elem_val.id }}">
 	<div class="container">
 		<h1 class="subtitle has-text-centered has-text-weight-bold">
-			{{ printf "%s %s" (i18n "local.sponsors") $elem_key }}</h1>
-		
+			{{ printf "%s %s" (i18n "local.sponsors") $elem_key }}
+		</h1>
+
 		<div class="columns is-mobile is-multiline is-centered" id="{{ printf "sponsors_%s" $elem_val.id }}">
 			{{ range $elem_val.sponsors }}
 			<div class="column is-three-quarters-touch is-2-desktop">
 				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
 					<div class="logo-container">
-						<img src="{{ (printf "images/sponsors/%s.png" .id) | absURL }}" alt="{{ .name }}">
+						<img src="{{ (printf "images/sponsors/%s.png" .id) | relURL }}" alt="{{ .name }}">
 					</div>
 				</a>
 			</div>
 			{{ end }}
 		</div>
-		
 	</div>
 </aside>
 {{ end }}
@@ -74,7 +74,7 @@
 			<div class="column is-4-touch">
 				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
 					<div class="logo-container">
-						<img src="{{ (printf "images/partners/%s.png" .id) | absURL }}" alt="{{ .name }}">
+						<img src="{{ (printf "images/partners/%s.png" .id) | relURL }}" alt="{{ .name }}">
 					</div>
 				</a>
 			</div>
@@ -96,7 +96,7 @@
 			<div class="column is-three-quarters-touch is-2-desktop">
 				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
 					<div class="logo-container">
-						<img src="{{ (printf "images/partners/%s.png" .id) | absURL }}" alt="{{ .name }}">
+						<img src="{{ (printf "images/partners/%s.png" .id) | relURL }}" alt="{{ .name }}">
 					</div>
 				</a>
 			</div>
@@ -116,7 +116,7 @@
 			<div class="column is-2 copy">
 				<h2>A project by</h2>
 				<a href="{{ .Site.Params.url }}" class="brand">
-					<img src="{{ "images/code4romania-full-gray.svg" | absURL }}" class="logo" alt="{{ .Site.Params.by }}">
+					<img src="{{ "images/code4romania-full-gray.svg" | relURL }}" class="logo" alt="{{ .Site.Params.by }}">
 				</a>
 				<p>{{ .Site.Params.copy }}</p>
 				<div class="social">

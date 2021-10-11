@@ -21,7 +21,7 @@
 	<link rel="canonical" href="{{ .Permalink }}" />
 	<meta property="og:url" content="{{ .Permalink }}">
 
-	<meta property="og:image" content="{{ "images/fb.png" | absURL }}"/>
+	<meta property="og:image" content="{{ "images/fb.png" | relURL }}"/>
 
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600,700&subset=latin-ext">
 
@@ -35,9 +35,9 @@
 
 	<script src="{{ $js.Permalink }}" defer></script>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon/apple-touch-icon.png" | absURL }}">
-	<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | absURL }}">
-	<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon/favicon-16x16.png" | absURL }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon/apple-touch-icon.png" | relURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | relURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon/favicon-16x16.png" | relURL }}">
 
 	{{ hugo.Generator }}
 </head>

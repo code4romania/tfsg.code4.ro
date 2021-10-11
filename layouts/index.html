@@ -27,7 +27,7 @@
 				<div class="columns is-vcentered {{- cond (eq (mod $i 2) 1) " row-reverse" "" }}">
 					<div class="column is-3-tablet is-4-desktop">
 						<figure class="image is-square">
-							<img src="{{ (printf "images/steps/%d.svg" $i) | absURL }}">
+							<img src="{{ (printf "images/steps/%d.svg" $i) | relURL }}">
 						</figure>
 					</div>
 					<div class="column">
@@ -110,7 +110,7 @@
 					<a href="{{ printf "https://code4.ro/ro/%s" .id }}" rel="noreferrer noopener">
 						<div class="app-brand">
 							<div class="logo-container" style="background-color:{{ .color }}">
-								<img src="{{ (printf "images/apps/%s.png" .id) | absURL }}" alt="{{ .id }}">
+								<img src="{{ (printf "images/apps/%s.png" .id) | relURL }}" alt="{{ .id }}">
 							</div>
 						</div>
 					</a>
@@ -135,7 +135,7 @@
 					<a href="{{ printf "https://code4.ro/ro/%s" .id }}" rel="noreferrer noopener">
 						<div class="app-brand">
 							<div class="logo-container" style="background-color:{{ .color }}">
-								<img src="{{ (printf "images/apps/%s.png" .id) | absURL }}" alt="{{ .id }}">
+								<img src="{{ (printf "images/apps/%s.png" .id) | relURL }}" alt="{{ .id }}">
 							</div>
 						</div>
 					</a>
