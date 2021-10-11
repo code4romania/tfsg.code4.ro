@@ -78,5 +78,15 @@
                 "url": "https://www.garmin.com/ro-RO/"
             }
         ]
+    },
+    "Sibiu": {
+        "id": "sibiu",
+        "sponsors": [
+            {
+                "id": "agilefreaks",
+                "name": "Agile Freaks",
+                "url": "https://www.agilefreaks.com/"
+            }
+        ]
     }
 }
