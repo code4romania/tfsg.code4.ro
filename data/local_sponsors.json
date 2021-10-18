@@ -36,6 +36,11 @@
                 "id": "visma",
                 "name": "Visma",
                 "url": "https://www.visma.ro/"
+            },
+            {
+                "id": "cgm",
+                "name": "CGM",
+                "url": "https://www.cgm.com/"
             }
         ]
     },
