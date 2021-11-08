@@ -68,11 +68,6 @@
         "id": "cluj",
         "sponsors": [
             {
-                "id": "evozon",
-                "name": "Evozon",
-                "url": "https://www.evozon.com"
-            },
-            {
                 "id": "wolfpack",
                 "name": "Wolfpack Digital",
                 "url": "https://www.wolfpack-digital.com"
