@@ -40,7 +40,7 @@
             {
                 "id": "cgm",
                 "name": "CGM",
-                "url": "https://www.cgm.com/"
+                "url": "https://www.cgm.com/rou_en"
             }
         ]
     },
@@ -67,11 +67,6 @@
     "Cluj-Napoca": {
         "id": "cluj",
         "sponsors": [
-            {
-                "id": "evozon",
-                "name": "Evozon",
-                "url": "https://www.evozon.com"
-            },
             {
                 "id": "wolfpack",
                 "name": "Wolfpack Digital",
