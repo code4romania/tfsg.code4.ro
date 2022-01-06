@@ -1,0 +1,8 @@
+{
+	"author": "Code for Romania",
+	"license": "MPL-2.0",
+	"private": true,
+	"dependencies": {
+		"aws-sdk": "^2.1051.0"
+	}
+}

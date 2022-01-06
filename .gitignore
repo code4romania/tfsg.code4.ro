@@ -4,5 +4,8 @@
 
 node_modules/
 public/
-theme/
-data/manifest.json
+resources/
+
+.vercel
+hugo_stats.json
+.hugo_build.lock

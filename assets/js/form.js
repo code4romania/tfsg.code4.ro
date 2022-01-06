@@ -1,13 +1,10 @@
-let Modernizr = require('modernizr');
-
 function form() {
 	this.instance = document.querySelector('form');
 
 	if (this.instance === null)
 		return;
 
-	if (Modernizr.formvalidation)
-		this.instance.setAttribute('novalidate', '');
+	this.instance.setAttribute('novalidate', '');
 
 	if (typeof URLSearchParams == 'function') {
 		var params = new URLSearchParams(location.search);
@@ -226,6 +223,4 @@ form.prototype.send = function(opts, data) {
 	request.send(urlEncodedData);
 }
 
-module.exports = () => {
-	return new form();
-}
+new form();

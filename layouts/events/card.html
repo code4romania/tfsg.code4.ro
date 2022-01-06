@@ -6,9 +6,9 @@
 					<div class="media-left">
 						<figure class="image is-64x64">
 							{{ if (fileExists (printf "static/images/city-labs/%s.svg" .Params.lab)) }}
-								<img src="{{ (printf "images/city-labs/%s.svg" .Params.lab) | relURL }}" alt="{{ .Title }}" class="svg-fallback">
+								<img src="{{ (printf "images/city-labs/%s.svg" .Params.lab) | relURL }}" alt="{{ .Title }}">
 							{{ else }}
-								<img src="{{ "images/code4romania.svg" | relURL }}" alt="{{ .Title }}" class="svg-fallback">
+								<img src="{{ "images/code4romania.svg" | relURL }}" alt="{{ .Title }}">
 							{{ end }}
 						</figure>
 					</div>

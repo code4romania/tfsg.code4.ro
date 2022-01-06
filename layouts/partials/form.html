@@ -1,7 +1,6 @@
-{{ with (getJSON "function/form.json") }}
-<form action="{{ .action }}" method="{{ .method }}" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
+<form action="/api/submit" method="post" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
 	<div class="columns is-multiline content">
-		{{ range where .fields "type" "!=" "hidden" }}
+		{{ range where (getJSON "api/fields.json") "type" "!=" "hidden" }}
 			<div class="column {{- with .width }} is-{{ . }}-tablet{{ end }}">
 				<div class="field">
 					{{ if .required }}
@@ -77,7 +76,7 @@
 		{{ end }}
 	</div>
 	<div class="submit-container buttons is-centered content">
-		<input type="hidden" name="_redirect" value="true">
+		<input type="hidden" name="_redirect" value="1">
 		<input type="hidden" name="edition" value="{{ $.Site.Data.events.edition }}">
 		<input type="hidden" name="lang" value="{{ $.Site.Language }}">
 		<input name="submit" type="submit" value="{{ i18n "label.submit" }}" class="button is-large is-success">
@@ -85,4 +84,3 @@
 	</div>
 	<div class="field" id="messages"></div>
 </form>
-{{ end }}

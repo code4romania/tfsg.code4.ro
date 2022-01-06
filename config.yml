@@ -74,3 +74,20 @@ disableKinds:
   - RSS
   - taxonomy
   - taxonomyTerm
+
+build:
+  noJSConfigInAssets: true
+  writeStats: true
+
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+security:
+  exec:
+    allow:
+      - ^babel$
+      - ^go$
+      - ^npx$
+      - ^postcss$

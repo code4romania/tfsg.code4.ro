@@ -36,6 +36,6 @@ function countdown(target) {
 	}, 1000);
 }
 
-module.exports = () => {
-	countdown(document.getElementById('countdown'));
-}
+
+countdown(document.getElementById('countdown'));
+

@@ -1,0 +1,87 @@
+[
+	{
+		"name": "edition",
+		"type": "hidden"
+	},
+	{
+		"name": "fname",
+		"type": "text",
+		"width": 6,
+		"required": true
+	},
+	{
+		"name": "lname",
+		"type": "text",
+		"width": 6,
+		"required": true
+	},
+	{
+		"name": "email",
+		"type": "email",
+		"width": 6,
+		"required": true
+	},
+	{
+		"name": "phone",
+		"type": "tel",
+		"width": 6,
+		"required": false
+	},
+	{
+		"name": "emailUpdates",
+		"type": "checkbox",
+		"width": 12,
+		"required": true
+	},
+	{
+		"name": "where",
+		"type": "select",
+		"width": 12,
+		"required": true,
+		"multiple": true,
+		"other": false,
+		"options": [
+			"bucuresti",
+			"iasi",
+			"cluj",
+			"timisoara",
+			"sibiu",
+			"online"
+		]
+	},
+	{
+		"name": "diet",
+		"type": "radio",
+		"width": 12,
+		"required": true,
+		"multiple": true,
+		"other": true,
+		"checked": "none",
+		"options": [
+			"none",
+			"vegetarian",
+			"vegan"
+		]
+	},
+	{
+		"name": "tech",
+		"type": "checkbox",
+		"width": 12,
+		"required": false,
+		"multiple": true,
+		"other": true,
+		"options": [
+			"js",
+			"python",
+			"dotnet",
+			"angular",
+			"react",
+			"android",
+			"kotlin",
+			"ios",
+			"java",
+			"laravel"
+		]
+	}
+]
+
