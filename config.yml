@@ -83,3 +83,11 @@ minify:
   tdewolff:
     html:
       keepWhitespace: false
+
+security:
+  exec:
+    allow:
+      - ^babel$
+      - ^go$
+      - ^npx$
+      - ^postcss$
