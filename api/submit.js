@@ -3,7 +3,7 @@ import fs from 'fs';
 import https from 'https';
 import querystring from 'querystring';
 
-const form = require('./form.json');
+const fields = require('./fields.json');
 const map = require('./map.json');
 
 AWS.config.update({
@@ -69,7 +69,7 @@ const sendEmail = (data) => {
 const parseForm = (body) => {
 	const data = {};
 
-	form.fields.forEach(field => {
+	fields.forEach(field => {
 		if (field.type == 'submit') {
 			return;
 		}
@@ -175,10 +175,10 @@ const submitForm = (data) => {
 			console.log('statusCode:', res.statusCode);
 		});
 
-		req.write(gform);
+		req.write(postData);
 		req.end();
 
-		req.on('response', (res) => resolve(res.body));
+		req.on('response', (res) => resolve('ok'));
 		req.on('error', (error) => reject(error));
 	}).then(() => sendEmail(data));
 }

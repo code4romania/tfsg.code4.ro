@@ -1,7 +1,6 @@
-{{ with (getJSON "api/form.json") }}
 <form action="/api/submit" method="post" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
 	<div class="columns is-multiline content">
-		{{ range where .fields "type" "!=" "hidden" }}
+		{{ range where (getJSON "api/fields.json") "type" "!=" "hidden" }}
 			<div class="column {{- with .width }} is-{{ . }}-tablet{{ end }}">
 				<div class="field">
 					{{ if .required }}
@@ -85,4 +84,3 @@
 	</div>
 	<div class="field" id="messages"></div>
 </form>
-{{ end }}
