@@ -1,5 +1,6 @@
+import { join } from 'path';
+import { readFileSync } from 'fs';
 import AWS from 'aws-sdk';
-import fs from 'fs';
 import https from 'https';
 import querystring from 'querystring';
 
@@ -55,7 +56,7 @@ const sendEmail = (data) => {
 			Body: {
 				Text: {
 					Charset: 'UTF-8',
-					Data: fs.readFileSync('./api/email.txt', 'utf8'),
+					Data: readFileSync(join(__dirname, 'email.txt'), 'utf8'),
 				},
 			},
 			Subject: {
