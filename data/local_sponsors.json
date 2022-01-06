@@ -36,6 +36,11 @@
                 "id": "visma",
                 "name": "Visma",
                 "url": "https://www.visma.ro/"
+            },
+            {
+                "id": "cgm",
+                "name": "CGM",
+                "url": "https://www.cgm.com/rou_en"
             }
         ]
     },
@@ -63,19 +68,9 @@
         "id": "cluj",
         "sponsors": [
             {
-                "id": "evozon",
-                "name": "Evozon",
-                "url": "https://www.evozon.com"
-            },
-            {
                 "id": "wolfpack",
                 "name": "Wolfpack Digital",
                 "url": "https://www.wolfpack-digital.com"
-            },
-            {
-                "id": "garmin",
-                "name": "Garmin",
-                "url": "https://www.garmin.com/ro-RO/"
             }
         ]
     },
