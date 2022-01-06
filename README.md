@@ -10,11 +10,11 @@ An easy to use website enabling users (professional groups, NGOs or private indi
 
 ## Built with
 
-[Hugo](https://gohugo.io/), [Bulma](https://bulma.io/), [gulp.js](https://gulpjs.com/) and everything else listed in [package.json](package.json).
+[Hugo](https://gohugo.io/), [Bulma](https://bulma.io/), [gulp.js](https://gulpjs.com/) and everything else listed in [package.json](package.json).
 
 ## Deployment
 
-The static website is currently deployed on an Amazon S3-backed CloudFront distribution. All the submission processing happens on AWS Lambda and data is stored through Google Forms. The actual deployment steps are detailed in the [`.travis.yml`](.travis.yml) file.
+The static website is currently deployed on Vercel. All the submission processing happens on a serverless function and data is stored through Google Forms.
 
 ### Configuration
 
@@ -23,14 +23,14 @@ Edit the copy in [`content/`](content/), the form in [`function/form.json`](func
 The handler expects the following environment variables:
 
 - `CORS_DOMAIN` – Domain to allow requests from.
-- `FORM_ID` – Google Form ID.
+- `FORM_ID` – Google Form ID.
 
 ### Building
 
 ```
-$ npm install
-$ npm run production
-$ hugo
+npm install
+npm run production
+hugo
 ```
 
 ## Contributing

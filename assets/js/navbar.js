@@ -6,4 +6,3 @@ document.querySelectorAll('.navbar-burger').forEach(button => {
 		target.classList.toggle('is-active');
 	});
 });
-
