@@ -1,7 +1,7 @@
 {
 	"functions": {
 		"api/submit.js": {
-			"includeFiles": "email.txt"
+			"includeFiles": "support/**"
 		}
 	}
 }
