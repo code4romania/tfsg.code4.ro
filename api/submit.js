@@ -9,6 +9,10 @@ const map = require('./map.json');
 
 AWS.config.update({
 	region: 'eu-west-1',
+	credentials: {
+		accessKeyId: process.env.SES_ACCESS_KEY_ID,
+		secretAccessKey: process.env.SES_SECRET_ACCESS_KEY
+	},
 });
 
 export default async (req, res) => {
