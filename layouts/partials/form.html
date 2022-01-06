@@ -1,5 +1,5 @@
 {{ with (getJSON "api/form.json") }}
-<form action="{{ .action }}" method="{{ .method }}" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
+<form action="/api/submit" method="post" data-success="{{ i18n "response.success" }}" data-error="{{ i18n "response.fail" }}">
 	<div class="columns is-multiline content">
 		{{ range where .fields "type" "!=" "hidden" }}
 			<div class="column {{- with .width }} is-{{ . }}-tablet{{ end }}">
