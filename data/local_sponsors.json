@@ -33,11 +33,6 @@
                 "url": "https://www.mambu.com"
             },
             {
-                "id": "visma",
-                "name": "Visma",
-                "url": "https://www.visma.ro/"
-            },
-            {
                 "id": "cgm",
                 "name": "CGM",
                 "url": "https://www.cgm.com/rou_en"
@@ -56,11 +51,6 @@
                 "id": "unifiedpost",
                 "name": "UnifiedPost",
                 "url": "https://www.unifiedpost.com"
-            },
-            {
-                "id": "visma",
-                "name": "Visma",
-                "url": "https://www.visma.ro/"
             }
         ]
     },

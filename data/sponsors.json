@@ -8,5 +8,10 @@
 		"id": "stefanini",
 		"name": "Stefanini",
 		"url": "https://stefanini.com/"
-	}
+	},
+	{
+        "id": "visma",
+        "name": "Visma",
+        "url": "https://www.visma.ro/"
+    }
 ]
