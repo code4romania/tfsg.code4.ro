@@ -70,7 +70,12 @@
             {
                 "id": "agilefreaks",
                 "name": "Agile Freaks",
-                "url": "https://www.agilefreaks.com/"
+                "url": "https://www.agilefreaks.com"
+            },
+            {
+                "id": "bearingpoint",
+                "name": "Bearing Point",
+                "url": "https://www.bearingpoint.com"
             }
         ]
     }
