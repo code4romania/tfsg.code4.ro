@@ -34,17 +34,16 @@ Pentru a avea acces la acest eveniment, vă rugăm să aveți aceste documente f
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
-#### {{% highlight %}}Aplicații Tech for Social Good{{% /highlight %}}
+#### {{% highlight %}}Aplicații Code for Romania Taskforce{{% /highlight %}}
 
-**De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
+**Un Acoperiș** | Blade, PHP | o soluție de identificare de spații de cazare care va ajuta refugiații care ajung în România și au nevoie de ajutor imediat. În platformă se pot înregistra persoane care pot pune la dispoziție camere sau imobile pentru persoanele care locuiesc în adăposturile puse la dispoziție de autoritățile române.
 
-**Teacher Workout** | .NET, React, Kotlin, Swift | [Backend](https://github.com/code4romania/teacher-workout-backend/) [Frontend](https://github.com/code4romania/teacher-workout-client/) [Android](https://github.com/code4romania/teacher-workout-android/) [iOS](https://github.com/code4romania/teacher-workout-ios)
+**RVM** | TypeScript, HTML, CSS, PHP | soluția de gestionarea a resurselor folosită deja în acest moment de către Departamentul pentru Situații de Urgență.
 
-**Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
+**Ce Trebuie Să Fac** | JavaScript, SCSS |  o soluție care este în acest moment adaptată la condițiile noii crize, la război, pentru a avea o imagine cât mai clară a rolurilor actorilor instituționali în această situație de urgență.
 
-**Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
+**Cine Ce Face** | JavaScript, SCSS | platforma de informare și sprijin pentru persoanele care vor solicita ajutor României. Cu ajutorul unui decision-tree orice persoană va putea să găsească în câteva minute care sunt procedurile pe care trebuie să le urmeze pentru a obține azil, cazare sau alte resurse disponibile pentru ei în situația în care se află. Informațiile vor fi disponibile în română, ucraineană și rusă.
 
-**Expert Consultation** | Java (Spring Boot), Angular | [Backend](https://github.com/code4romania/expert-consultation-api) [Frontend](https://github.com/code4romania/expert-consultation-client)
 
 {{% /column %}}
 

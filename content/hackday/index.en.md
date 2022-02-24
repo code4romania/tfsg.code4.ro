@@ -32,17 +32,16 @@ Documents (printed or electronic) will be checked at entry.
 
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
-#### {{% highlight %}}Tech for Social Good apps{{% /highlight %}}
+#### {{% highlight %}}Code for Romania Taskforce Applications{{% /highlight %}}
 
-**De Urgență** | .NET, Kotlin, Swift | [Backend](http://github.com/code4romania/de-urgenta-backend) [Frontent](https://github.com/code4romania/de-urgenta-client) [Android](https://github.com/code4romania/de-urgenta-android) [iOS](https://github.com/code4romania/de-urgenta-ios)
+**Un Acoperiș** | Blade, PHP | a solution meant to help identify shelter and living spaces for refugees who arrive in Romania and require immediate help. People who can offer rooms or buildings for those who live in the shelters offered by Romanian authorities can sign up on this platform.  
 
-**Teacher Workout** | .NET, React, Kotlin, Swift | [Backend](https://github.com/code4romania/teacher-workout-backend/) [Frontend](https://github.com/code4romania/teacher-workout-client/) [Android](https://github.com/code4romania/teacher-workout-android/) [iOS](https://github.com/code4romania/teacher-workout-ios)
+**RVM** | TypeScript, HTML, CSS, PHP | a solution for resource management currently in use by the Department for Urgent Situations.
 
-**Seismic Risc** | React, Python (Django) | [Backend & Frontend](https://github.com/code4romania/seismic-risc)
+**Ce Trebuie Să Fac** | JavaScript, SCSS | a platform meant to aid with informing and supporting the people who will request aid from Romania. A decision tree will guide any person who needs to understand, within minutes, what procedures they need to follow in order to obtain asylum, shelter or any other resources that they can access. This information will be available in Romanian, Ukrainian and Russian.
 
-**Data Portal** | Python (CKAN framework) | [Frontend](https://github.com/code4romania/ckanext-dataportaltheme) [Deploy](https://github.com/code4romania/data-portal/)
 
-**Expert Consultation** | Java (Spring Boot), Angular | [Backend](https://github.com/code4romania/expert-consultation-api) [Frontend](https://github.com/code4romania/expert-consultation-client)
+**Cine Ce Face** | JavaScript, SCSS | a solution that is adapted to the conditions of the new ongoing crisis, the war, that will build a clear image of the roles that institutional actors have during this urgent situation.
 
 {{% /column %}}
 
