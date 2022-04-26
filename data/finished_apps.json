@@ -78,5 +78,36 @@
 		"id": "vot-ong",
 		"color": "#FFF",
 		"show": true
+	},
+	{
+		"id": "consiliere-hiv",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "ukraine-child-cancer-help",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "un-acoperis",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "sprijin-de-urgență",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "sunrise",
+		"color": "#FFF",
+		"show": true
+	},
+	{
+		"id": "vieti-pierdute",
+		"color": "#FFF",
+		"show": true
 	}
+	
 ]

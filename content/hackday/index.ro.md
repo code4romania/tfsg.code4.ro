@@ -34,15 +34,16 @@ Pentru a avea acces la acest eveniment, vă rugăm să aveți aceste documente f
 {{% /column %}}
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
-#### {{% highlight %}}Aplicații Code for Romania Taskforce{{% /highlight %}}
 
-**Un Acoperiș** | Blade, PHP | o soluție de identificare de spații de cazare care va ajuta refugiații care ajung în România și au nevoie de ajutor imediat. În platformă se pot înregistra persoane care pot pune la dispoziție camere sau imobile pentru persoanele care locuiesc în adăposturile puse la dispoziție de autoritățile române.
+**De Urgență** | .NET, Kotlin, Swift | Plan familial de urgență și educație pentru răspuns în caz de cutremur.
 
-**RVM** | TypeScript, HTML, CSS, PHP | soluția de gestionarea a resurselor folosită deja în acest moment de către Departamentul pentru Situații de Urgență.
+**Teacher Workout** | .NET, React, Kotlin, Swift | Abilități socio-emoționale pentru profesori.
 
-**Ce Trebuie Să Fac** | JavaScript, SCSS |  o soluție care este în acest moment adaptată la condițiile noii crize, la război, pentru a avea o imagine cât mai clară a rolurilor actorilor instituționali în această situație de urgență.
+**Data Portal** | Python (CKAN framework) | Platformă de date deschise și vizualizare de seturi de date.
 
-**Cine Ce Face** | JavaScript, SCSS | platforma de informare și sprijin pentru persoanele care vor solicita ajutor României. Cu ajutorul unui decision-tree orice persoană va putea să găsească în câteva minute care sunt procedurile pe care trebuie să le urmeze pentru a obține azil, cazare sau alte resurse disponibile pentru ei în situația în care se află. Informațiile vor fi disponibile în română, ucraineană și rusă.
+**Bulina Roșie** | React, Python (Django) | Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare.
+
+**Școala de Participare Civică** | TBD | Informații și înscrieri pentru școli despre toate activitățile și evenimentele organizate pentru copii
 
 
 {{% /column %}}

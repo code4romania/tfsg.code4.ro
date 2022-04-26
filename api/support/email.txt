@@ -1,15 +1,15 @@
 Hello, superhero!
 
 Ne bucurăm că te-ai înscris. La acest Hack Day ne vom strânge:
-- pe 26 februarie începând cu ora 10am, online.
+- pe 30 aprilie începând cu ora 10am, online.
 
 În ziua respectivă, dacă nu ești deja în Slack, vei primi o invitație în workspace-ul nostru.
 
 Vom povesti despre și vom lucra la următoarele proiecte:
 - De Urgență (C#, Kotlin, Swift)
 - Teacher Workout (C#, React, Kotlin, Swift)
-- Seismic Risc (Python, React)
-- Expert Consultation (Java, Angular)
+- Bulina Roșie (React, Python (Django))
+- Școala de Participare Civică (TBD)
 - Data Portal (Python)
 
 Pentru orice informații, trimite-ne un email pe contact@code4.ro.
