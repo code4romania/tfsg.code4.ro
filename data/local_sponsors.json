@@ -33,11 +33,6 @@
         "id": "iasi",
         "sponsors": [
             {
-                "id": "mambu",
-                "name": "Mambu",
-                "url": "https://www.mambu.com"
-            },
-            {
                 "id": "cgm",
                 "name": "CGM",
                 "url": "https://www.cgm.com/rou_en"
