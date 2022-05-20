@@ -1,9 +1,9 @@
 ---
 lab: iasi
 title: Iași
-location: 
+location: Fablab 1
 startdate: 
-enabled: false
+enabled: true
 weight: 3
 outputs:
   # - Calendar
