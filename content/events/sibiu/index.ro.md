@@ -3,7 +3,7 @@ lab: sibiu
 title: Sibiu
 location: Agile Freaks
 startdate: 
-enabled: true
+enabled: false
 weight: 5
 outputs:
   # - Calendar
