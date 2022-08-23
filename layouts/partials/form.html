@@ -56,8 +56,20 @@
 								<select id="{{ .name }}" name="{{ .name }}" {{- with .required }} required {{- end }}>
 									<option></option>
 									{{ $name := .name }}
-									{{ range .options }}
-										<option value={{ . }}>{{ i18n (printf "option.%s.%s" $name .) }}</option>
+
+									{{ if eq $name "where" }}
+										{{ range .options }}
+											<option
+												{{ with $.GetPage (print "/events/" .) }}
+													{{ if eq .Params.enabled false }} disabled {{ end }}
+												{{ end }}
+												value={{ . }}
+											>{{ i18n (printf "option.%s.%s" $name .) }}</option>
+										{{ end }}
+									{{ else }}
+										{{ range .options }}
+											<option value={{ . }}>{{ i18n (printf "option.%s.%s" $name .) }}</option>
+										{{ end }}
 									{{ end }}
 
 									{{ if .other }}
