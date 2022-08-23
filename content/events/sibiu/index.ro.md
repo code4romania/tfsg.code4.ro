@@ -1,7 +1,7 @@
 ---
 lab: sibiu
 title: Sibiu
-location: 
+location: Agile Freaks
 startdate: 
 enabled: false
 weight: 5

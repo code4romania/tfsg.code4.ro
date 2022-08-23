@@ -1,7 +1,7 @@
 ---
 lab: iasi
 title: Iași
-location: 
+location: Fablab 1
 startdate: 
 enabled: false
 weight: 3
