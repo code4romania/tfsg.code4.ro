@@ -51,7 +51,7 @@
 	},
 	{
 		"name": "diet",
-		"type": "radio",
+		"type": "hidden",
 		"width": 12,
 		"required": true,
 		"multiple": true,
