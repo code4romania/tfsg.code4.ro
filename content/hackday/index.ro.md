@@ -10,7 +10,7 @@ aliases:
   - /hackday
 ---
 
-Dacă poți oferi din timpul, cunoștințele și talentul tău pentru a construi alături de noi soluții digitale pentru România, vino să ne cunoști la o nouă ediție Hack Day derulată online dar și live, în câteva dintre orașele în care organizăm întâlniri în persoană luna aceasta.
+Dacă poți oferi din timpul, cunoștințele și talentul tău pentru a construi alături de noi soluții digitale pentru România, vino să ne cunoști la o nouă ediție Hack Day derulată online.
 
 Participă și tu la schimbare! Este un moment în care comunitatea noastră a demonstrat că poate ajuta zeci de milioane de români. Împreună cu tine **putem** construi și mai mult. Contribuie la unul dintre proiectele Tech for Social Good.
 
