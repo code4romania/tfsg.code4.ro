@@ -3,19 +3,14 @@
         "id": "bucuresti",
         "sponsors": [
             {
-                "id": "sustainalytics",
-                "name": "Sustainalytics",
+                "id": "morningstar",
+                "name": "Morningstar",
                 "url": "https://www.sustainalytics.com"
             },
             {
                 "id": "amazon",
                 "name": "Amazon",
                 "url": "https://www.amazon.com"
-            },
-            {
-                "id": "systematic",
-                "name": "Systematic",
-                "url": "https://systematic.com/"
             },
             {
                 "id": "fintechos",

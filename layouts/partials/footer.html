@@ -14,7 +14,7 @@
 			{{ end }}
 		</div>
 	</div>
-</aside> 
+</aside>
 
 <!-- Sponsors -->
 <aside class="partners section has-background-light">
@@ -83,32 +83,6 @@
 	</div>
 </aside>
 
-<!-- Local partners -->
-{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca" "Sibiu") }}
-{{ range $city := $cities }}
-{{ range $elem_key, $elem_val := $.Site.Data.local_partners }}
-{{ if eq $elem_key $city }}
-<aside class="partners section has-background-light" id="{{ printf "partners_%s" $elem_val.id }}">
-	<div class="container">
-		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "partners" }}</h1>
-		<div class="columns is-mobile is-multiline is-centered">
-			{{ range $elem_val.partners }}
-			<div class="column is-three-quarters-touch is-2-desktop">
-				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
-					<div class="logo-container">
-						<img src="{{ (printf "images/partners/%s.png" .id) | relURL }}" alt="{{ .name }}">
-					</div>
-				</a>
-			</div>
-			{{ end }}
-		</div>
-
-	</div>
-</aside>
-{{ end }}
-{{ end }}
-{{ end }}
-
 <!-- Footer -->
 <footer class="footer">
 	<div class="container">
@@ -116,7 +90,8 @@
 			<div class="column is-2 copy">
 				<h2>A project by</h2>
 				<a href="{{ .Site.Params.url }}" class="brand">
-					<img src="{{ "images/code4romania-full-gray.svg" | relURL }}" class="logo" alt="{{ .Site.Params.by }}">
+					<img src="{{ "images/code4romania-full-gray.svg" | relURL }}" class="logo"
+						alt="{{ .Site.Params.by }}">
 				</a>
 				<p>{{ .Site.Params.copy }}</p>
 				<div class="social">
@@ -181,7 +156,8 @@
 							</a>
 						</li>
 						<li class="links-item">
-							<a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGCeFczJvdfrgAAAXYGPuWQRd0eHy7XhVw56tvdpl4hs6o6kVQ2PslQWAOTPUbGt1EGPT0flHCXhlDddQy1IgiugL_8A6P83FeAG2Ett437esFBRW2MqwTfNfaYjbP_56vk0P8=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcode4romania%2F" rel="noreferrer noopener">
+							<a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGCeFczJvdfrgAAAXYGPuWQRd0eHy7XhVw56tvdpl4hs6o6kVQ2PslQWAOTPUbGt1EGPT0flHCXhlDddQy1IgiugL_8A6P83FeAG2Ett437esFBRW2MqwTfNfaYjbP_56vk0P8=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcode4romania%2F"
+								rel="noreferrer noopener">
 								LinkedIn
 							</a>
 						</li>
