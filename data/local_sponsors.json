@@ -46,11 +46,6 @@
                 "id": "continental",
                 "name": "Continental",
                 "url": "https://www.continental.com/ro-ro"
-            },
-            {
-                "id": "unifiedpost",
-                "name": "UnifiedPost",
-                "url": "https://www.unifiedpost.com"
             }
         ]
     },
