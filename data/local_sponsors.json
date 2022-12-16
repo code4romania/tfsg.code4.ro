@@ -28,11 +28,6 @@
         "id": "iasi",
         "sponsors": [
             {
-                "id": "cgm",
-                "name": "CGM",
-                "url": "https://www.cgm.com/rou_en"
-            },
-            {
                 "id": "centric",
                 "name": "Centric",
                 "url": "https://www.centric.eu"
