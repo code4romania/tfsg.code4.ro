@@ -1,8 +1,8 @@
 {
-	"edition": "51",
+	"edition": "52",
 	"tz": "Europe/Bucharest",
 	"offset": "+02:00",
-	"date": "2023-05-27",
+	"date": "2023-06-24",
 	"startTime": "10:00:00",
 	"endTime": "23:45:00"
 }
