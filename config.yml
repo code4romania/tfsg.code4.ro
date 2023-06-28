@@ -63,7 +63,7 @@ sitemap:
   filename: sitemap.xml
   priority: 0.5
 
-googleAnalytics: UA-135005691-1
+googleAnalytics: G-D8FTTNWD0D
 privacy:
   googleAnalytics:
     anonymizeIP: true
