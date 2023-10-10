@@ -9,3 +9,7 @@ resources/
 .vercel
 hugo_stats.json
 .hugo_build.lock
+
+# Ignore the whole .idea folder & the project iml file
+.idea
+*.iml
