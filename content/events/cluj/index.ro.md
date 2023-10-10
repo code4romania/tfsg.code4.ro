@@ -1,9 +1,9 @@
 ---
 lab: cluj
 title: Cluj-Napoca
-location: 
+location: Accesa (Str. Constanța 12)
 startdate: 
-enabled: false
+enabled: true
 weight: 2
 outputs:
   # - Calendar
