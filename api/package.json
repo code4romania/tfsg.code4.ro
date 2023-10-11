@@ -3,6 +3,6 @@
 	"license": "MPL-2.0",
 	"private": true,
 	"dependencies": {
-		"aws-sdk": "^2.1279.0"
+		"aws-sdk": "^2.1472.0"
 	}
 }
