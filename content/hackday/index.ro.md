@@ -34,17 +34,33 @@ Participă și tu la schimbare! Este un moment în care comunitatea noastră a d
 
 **Un Acoperiș** | Laravel, JavaScript | Spații de cazare pentru refugiați.
 
-În plus, avem nevoie de sprijin pentru:
-**Dezvoltarea mobilă** Căutăm persoane cu experiență în dezvoltarea de aplicații mobile care să ne ajute cu internaționalizarea și crearea unui sistem de administrare a conținutului (CMS) pentru aplicația PTSD Coach.
+{{% /column %}}
+
+**Avem nevoie de sprijin pentru**:
+{{% /column %}}
+
+{{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
+
+**Dezvoltarea mobilă**
+
+Căutăm persoane cu experiență în dezvoltarea de aplicații mobile care să ne ajute cu internaționalizarea și crearea unui sistem de administrare a conținutului (CMS) pentru aplicația PTSD Coach.
 În prezent, aceste sarcini sunt foarte dificile.
 
-**Testare manuală a aplicației** Apreciem orice persoană care poate efectua testarea manuală a aplicației.
+**Testare manuală a aplicației**
 
-**UX/UI Design** Căutăm persoane specializate în designul experienței utilizator și al interfeței pentru a crea câteva concepte de test pentru unele dintre aplicațiile Civic Labs, în special cele legate de educație și mediu.
+Apreciem orice persoană care poate efectua testarea manuală a aplicației.
 
-**Traduceri în limbile străine** Dacă știți limbi străine și doriți să ne ajutați cu traduceri (engleză, franceză, sau orice altă limbă), sunteți bineveniți.
+**UX/UI Design**
 
-**Redactare tehnică (technical writing)** Căutăm persoane familiare cu redactarea tehnică, care să ne ajute să creăm șabloane pentru documentația utilizatorului, pe care să le folosim în cadrul organizației.
+Căutăm persoane specializate în designul experienței utilizator și al interfeței pentru a crea câteva concepte de test pentru unele dintre aplicațiile Civic Labs, în special cele legate de educație și mediu.
+
+**Traduceri în limbile străine**
+
+Dacă știți limbi străine și doriți să ne ajutați cu traduceri (engleză, franceză, sau orice altă limbă), sunteți bineveniți.
+
+**Redactare tehnică (technical writing)**
+
+Căutăm persoane familiare cu redactarea tehnică, care să ne ajute să creăm șabloane pentru documentația utilizatorului, pe care să le folosim în cadrul organizației.
 
 
 {{% /column %}}
