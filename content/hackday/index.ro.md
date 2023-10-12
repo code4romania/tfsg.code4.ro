@@ -20,6 +20,7 @@ Participă și tu la schimbare! Este un moment în care comunitatea noastră a d
 
 {{% columns class="is-multiline" %}}
 
+
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet is-size-4" %}}
 **Proiecte în lucru**:
 {{% /column %}}
@@ -36,6 +37,8 @@ Participă și tu la schimbare! Este un moment în care comunitatea noastră a d
 
 {{% /column %}}
 
+
+{{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet is-size-4" %}}
 **Avem nevoie de sprijin pentru**:
 {{% /column %}}
 
@@ -62,8 +65,8 @@ Dacă știți limbi străine și doriți să ne ajutați cu traduceri (engleză,
 
 Căutăm persoane familiare cu redactarea tehnică, care să ne ajute să creăm șabloane pentru documentația utilizatorului, pe care să le folosim în cadrul organizației.
 
-
 {{% /column %}}
+
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Citește despre [toate proiectele Code for Romania](https://code4.ro/ro/putem).
