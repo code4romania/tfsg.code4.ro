@@ -51,7 +51,7 @@ Căutăm persoane cu experiență în dezvoltarea de aplicații mobile care să 
 
 **Testare manuală a aplicației**
 
-Apreciem orice persoană care poate efectua testarea manuală a aplicației.
+Apreciem orice persoană care poate efectua testare manuală pentru aplicațiile noastre.
 
 **UX/UI Design**
 
