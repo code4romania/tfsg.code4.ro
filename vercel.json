@@ -3,5 +3,11 @@
 		"api/submit.js": {
 			"includeFiles": "support/**"
 		}
-	}
+	},
+	"redirects": [
+		{
+			"source": "/(.*)",
+			"destination": "https://www.code4.ro/ro/hackday"
+		}
+	]
 }
