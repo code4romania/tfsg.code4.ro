@@ -20,6 +20,7 @@ Participă și tu la schimbare! Este un moment în care comunitatea noastră a d
 
 {{% columns class="is-multiline" %}}
 
+
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet is-size-4" %}}
 **Proiecte în lucru**:
 {{% /column %}}
@@ -30,14 +31,42 @@ Participă și tu la schimbare! Este un moment în care comunitatea noastră a d
 
 **Teacher Workout** | .NET, React, Kotlin, Swift | Abilități socio-emoționale pentru profesori.
 
-**Data Portal** | Python (CKAN framework) | Platformă de date deschise și vizualizare de seturi de date.
+**Website Factory ONG** | Laravel, VueJS, InertiaJS | Creator de website-uri pentru ONG-uri.
 
-**Bulina Roșie** | React, Python (Django) | Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare.
-
-**Școala de Participare Civică** | TBD | Informații și înscrieri pentru școli despre toate activitățile și evenimentele organizate pentru copii
-
+**Un Acoperiș** | Laravel, JavaScript | Spații de cazare pentru refugiați.
 
 {{% /column %}}
+
+
+{{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet is-size-4" %}}
+**Avem nevoie de sprijin pentru**:
+{{% /column %}}
+
+{{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
+
+**Dezvoltarea mobilă**
+
+Căutăm persoane cu experiență în dezvoltarea de aplicații mobile care să ne ajute cu internaționalizarea și crearea unui sistem de administrare a conținutului (CMS) pentru aplicația PTSD Coach.
+În prezent, aceste sarcini sunt foarte dificile.
+
+**Testare manuală a aplicației**
+
+Apreciem orice persoană care poate efectua testare manuală pentru aplicațiile noastre.
+
+**UX/UI Design**
+
+Căutăm persoane specializate în designul experienței utilizator și al interfeței pentru a crea câteva concepte de test pentru unele dintre aplicațiile Civic Labs, în special cele legate de educație și mediu.
+
+**Traduceri în limbile străine**
+
+Dacă știți limbi străine și doriți să ne ajutați cu traduceri (engleză, franceză, sau orice altă limbă), sunteți bineveniți.
+
+**Redactare tehnică (technical writing)**
+
+Căutăm persoane familiare cu redactarea tehnică, care să ne ajute să creăm șabloane pentru documentația utilizatorului, pe care să le folosim în cadrul organizației.
+
+{{% /column %}}
+
 
 {{% column class="has-text-centered-tablet is-half-tablet is-offset-one-quarter-tablet" %}}
 Citește despre [toate proiectele Code for Romania](https://code4.ro/ro/putem).
