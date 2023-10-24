@@ -37,7 +37,7 @@
 			</div>
 			<div class="column is-narrow has-text-right content">
 				{{- if .Params.enabled -}}
-					<a href="https://www.code4.ro/ro/hackday" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
+					<a href="{{ (printf "/hackday/?where=%s" .File.ContentBaseName) | relLangURL }}" class="button is-success is-fullwidth">{{ i18n "event.rsvp" }}</a>
 						{{- with .OutputFormats.Get "Calendar" -}}
 							<a href="{{ .RelPermalink | safeURL }}" class="is-size-7" download="{{ $.Params.title }}.ics">{{ i18n "event.calendar" }}</a>
 						{{- end -}}
